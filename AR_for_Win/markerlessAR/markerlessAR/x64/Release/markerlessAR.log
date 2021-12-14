@@ -1,0 +1,20 @@
+﻿  markerlessAR.cpp
+c:\users\ethan\desktop\ar_for_macos\markerlessar\markerlessar\markerlessar.cpp(103): warning C4244: “=”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+c:\users\ethan\desktop\ar_for_macos\markerlessar\markerlessar\markerlessar.cpp(105): warning C4244: “=”: 从“_Tp”转换到“float”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+c:\users\ethan\desktop\ar_for_macos\markerlessar\markerlessar\markerlessar.cpp(119): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\ethan\desktop\ar_for_macos\markerlessar\markerlessar\markerlessar.cpp(121): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\ethan\desktop\ar_for_macos\markerlessar\markerlessar\markerlessar.cpp(131): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\ethan\desktop\ar_for_macos\markerlessar\markerlessar\markerlessar.cpp(133): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+    正在创建库 C:\Users\ethan\Desktop\AR_for_MacOS\markerlessAR\x64\Release\markerlessAR.lib 和对象 C:\Users\ethan\Desktop\AR_for_MacOS\markerlessAR\x64\Release\markerlessAR.exp
+  正在生成代码
+  All 483 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  markerlessAR.vcxproj -> C:\Users\ethan\Desktop\AR_for_MacOS\markerlessAR\x64\Release\markerlessAR.dll
