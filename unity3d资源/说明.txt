@@ -1,4 +1,4 @@
-简单的脚步或shader文件我会直接上传到github上哈；
+简单的脚本或shader文件我会直接上传到github上哈；
 
 大一些的package我会放到QQ群里的群文件哈；
 
