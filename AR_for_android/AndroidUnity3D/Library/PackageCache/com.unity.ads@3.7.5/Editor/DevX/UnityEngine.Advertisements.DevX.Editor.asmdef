@@ -1,0 +1,27 @@
+{
+    "name": "UnityEngine.Advertisements.DevX.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Services.Core",
+        "Unity.Services.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_2019_4_OR_NEWER"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.core",
+            "expression": "0.3.0-preview",
+            "define": "SERVICES_SDK_CORE_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,5 @@
+{
+  "displayName": "Apple App Store - 03 Handling Deferred Purchases",
+  "description": "This sample showcases how to handle deferred purchases using Apple extensions and configurations.",
+  "createSeparatePackage": false
+}

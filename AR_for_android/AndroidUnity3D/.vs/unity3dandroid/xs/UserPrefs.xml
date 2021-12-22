@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3962F784-54A1-102F-27BF-B7772B05ABFC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/androidCam.cs">
+    <Files>
+      <File FileName="Assets/Scripts/androidCam.cs" Line="25" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="unity3dandroid" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="androidCam.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2e4e9cba-5e17-4a43-8bd2-879d059752d8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

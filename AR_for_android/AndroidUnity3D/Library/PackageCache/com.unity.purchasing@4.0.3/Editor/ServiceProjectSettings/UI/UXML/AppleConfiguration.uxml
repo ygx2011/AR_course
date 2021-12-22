@@ -1,0 +1,16 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="AppleConfigBlock" class="project-settings-title-container">
+        <Label text="Apple Configuration" class="project-settings-title"/>
+        <Label text="Receipt obfuscation for Apple will create a Tangle class in your project, note that this does not replace server side validation." class="label-container"/>
+        <VisualElement class="button-container">
+            <Button name="ObfuscateKeysButton" text="Obfuscate Apple License Key" class="submit-button"/>
+        </VisualElement>
+        <VisualElement name="verification">
+            <Label text="AppleTangle.cs has been generated and exists in your project." class="label-container"/>
+        </VisualElement>
+        <VisualElement name="error-message">
+            <Label text="-Apple Errors Show Here-." class="warning-message"/>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator" />
+</UXML>

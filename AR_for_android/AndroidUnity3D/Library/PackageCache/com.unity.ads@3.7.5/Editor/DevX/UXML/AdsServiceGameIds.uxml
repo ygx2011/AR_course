@@ -1,0 +1,8 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="project-settings-section-container">
+        <Label text="Game Id" class="project-settings-title"/>
+        <TextField name="AndroidGameId" text="N/A" label="Android" readonly="true"/>
+        <TextField name="AppleGameId" text="N/A" label="iOS" readonly="true"/>
+    </VisualElement>
+    <VisualElement class="separator"/>
+</UXML>

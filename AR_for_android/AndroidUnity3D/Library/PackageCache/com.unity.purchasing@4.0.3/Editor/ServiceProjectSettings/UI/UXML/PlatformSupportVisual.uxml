@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns="UnityEngine.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="CurrentBuildTargetSection" class="multi-field-block">
+        <ui:Label text="Current Build Target:" class="title" />
+        <ui:VisualElement class="tag-container" />
+    </ui:VisualElement>
+    <ui:VisualElement name="CurrentStoreSection" class="multi-field-block">
+        <ui:Label text="Current Targeted Store:" class="title" />
+        <ui:VisualElement>
+            <ui:IMGUIContainer class="imgui-editorguipopup tag-container" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="SupportedStoresSection" class="multi-field-block">
+        <ui:Label text="Supported Stores:" class="title" />
+        <ui:VisualElement class="tag-container" />
+    </ui:VisualElement>
+    <ui:VisualElement name="OtherStoresSection" class="multi-field-block">
+        <ui:Label text="Other Available Stores:" class="title" />
+        <ui:VisualElement class="tag-container" />
+    </ui:VisualElement>
+    <ui:VisualElement class="separator" />
+</ui:UXML>

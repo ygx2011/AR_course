@@ -1,0 +1,10 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="CatalogEditorBlock" class="project-settings-title-container">
+        <Label text="Catalog Editor" class="project-settings-title"/>
+        <Label text="Manage local In-App Purchasing products with the Catalog" class="label-container"/>
+        <VisualElement class="button-container">
+            <Button name="CatalogEditorButton" text="Open Catalog" class="submit-button"/>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator" />
+</UXML>

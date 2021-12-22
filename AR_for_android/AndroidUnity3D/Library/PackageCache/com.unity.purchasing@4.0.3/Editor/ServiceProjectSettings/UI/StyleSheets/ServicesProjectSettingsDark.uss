@@ -1,0 +1,116 @@
+.service-toggle-container > .unity-toggle > .unity-toggle__input > .unity-toggle__text
+{
+    border-color:#838383; /*from dark.uss --theme-button-border-checked*/
+    color:#838383; /*from dark.uss --theme-button-border-checked*/
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input:checked > .unity-toggle__text
+{
+    border-color:#D2D2D2; /*from dark.uss --unity-text-color*/
+    color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+.service-toggle-container > .unity-toggle:hover > .unity-toggle__input > .unity-toggle__text,
+.service-toggle-container > .unity-toggle:hover > .unity-toggle__input:checked > .unity-toggle__text
+{
+    border-color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+    color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.link-button > .unity-text-element {
+    color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+.link-button:hover > .unity-text-element {
+    color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.external-link-icon {
+    -unity-background-image-tint-color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+.link-button:hover > .external-link-icon {
+    -unity-background-image-tint-color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.button-container .unity-button.disabled {
+    color:rgba(210,210,210, 0.4); /*from dark.uss --theme-prefab-text-color-disabled*/
+    border-color:#666666; /*from dark.uss --theme-slider-thumb-border-disabled*/
+    background-color:#666666; /*from dark.uss --theme-slider-thumb-background-color-disabled*/
+}
+
+.button-container .unity-button.disabled:hover {
+    color:rgba(210,210,210, 0.4); /*from dark.uss --theme-prefab-text-color-disabled*/
+    border-color:#666666; /*from dark.uss --theme-slider-thumb-border-disabled*/
+    background-color:#666666; /*from dark.uss --theme-slider-thumb-background-color-disabled*/
+}
+
+.platform-tag{
+    background-color:#4D4D4D; /*from dark.uss --theme-line-selection-background-color*/
+}
+
+.note-tag{
+    background-color:#3A79BB; /*from dark.uss  --theme-tab-border-color-active*/
+}
+
+.platform-tag,
+.note-tag{
+    color:#ffffff; /*from dark.uss --theme-line-selection-text-color*/
+}
+
+.link-button > .unity-text-element {
+    color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+.link-button:hover > .unity-text-element {
+    color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.info-icon {
+    -unity-background-image-tint-color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+.external-link-icon {
+    -unity-background-image-tint-color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+.link-button:hover > .external-link-icon {
+    -unity-background-image-tint-color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.separator {
+    background-color:#5E5E5E; /*from dark.uss --theme-slider-background-color*/
+}
+
+/* Addition from the Ads Service, Cloud Diag Service, Collab Service */
+.service-link-button:hover {
+    color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.service-icon {
+    -unity-background-image-tint-color:#D2D2D2; /*from dark.uss --unity-text-color*/
+}
+
+/* Multiplayer Service */
+.mp-config-tag-title {
+    background-color:#101010; /*from dark.uss --unity-text-color*/
+    border-color:#A5A5A5; /*from dark.uss --theme-background-color*/
+}
+
+/* Analytics Service */
+.play-image {
+    background-image:resource("Builtin Skins/DarkSkin/Images/playtovalidate_pro.png");
+}
+
+.table-header{
+    background-color:#3E3E3E; /*from dark.uss --theme-title-background-color*/
+}
+
+/* Purchasing Service */
+.warning-message {
+    color:#d32222;  /*from dark.uss --theme-console-status-error-text-color*/
+}
+
+.warning-info-icon2x {
+    -unity-background-image-tint-color:#d32222;  /*from dark.uss --theme-console-status-error-text-color*/
+}

@@ -1,0 +1,5 @@
+{
+  "displayName": "Apple App Store - 01 Refreshing App Receipts",
+  "description": "This sample shows how to refresh Apple App Store receipts.",
+  "createSeparatePackage": false
+}

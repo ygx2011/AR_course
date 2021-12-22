@@ -1,0 +1,11 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="AnalyticsNoticeBlock" class="project-settings-title-container">
+        <VisualElement name="DisabledNoticeSection">
+            <Label text="Note: Enabling In-App Purchasing also enables Analytics." class="note-tag"/>
+        </VisualElement>
+        <VisualElement name="EnabledNoticeSection">
+            <Label text="Note: Disabling Analytics also disables In-App Purchasing." class="note-tag"/>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator" />
+</UXML>

@@ -1,0 +1,5 @@
+apiRules:
+  - exclude:
+      # exclude mentions of samples in Scripting API docs
+      uidRegex: ^Samples\.Purchasing\..*
+      type: Namespace

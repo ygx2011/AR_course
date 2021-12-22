@@ -1,0 +1,28 @@
+{
+    "name": "UnityEngine.Purchasing.Stores",
+    "references": [
+        "UnityEngine.Purchasing.Apple",
+        "UnityEngine.Purchasing.AppleCore",
+        "UnityEngine.Purchasing.AppleMacos",
+        "UnityEngine.Purchasing.AppleMacosStub",
+        "UnityEngine.Purchasing.AppleStub",
+        "UnityEngine.Purchasing",
+        "Purchasing.Common",
+        "UnityEngine.Purchasing.Security",
+        "UnityEngine.Purchasing.SecurityCore",
+        "UnityEngine.Purchasing.SecurityStub",
+        "UnityEngine.Purchasing.WinRT",
+        "UnityEngine.Purchasing.WinRTCore",
+        "UnityEngine.Purchasing.WinRTStub",
+        "Unity.Services.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

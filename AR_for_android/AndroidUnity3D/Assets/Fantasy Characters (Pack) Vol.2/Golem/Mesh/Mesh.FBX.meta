@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: c474ad21c500bd345afe9e71b6f2a982
+timeCreated: 1450454918
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Character001
+    100002: Character001Hub001
+    100004: Character001Hub001Bone001
+    100006: Character001Hub001Bone001Bone001
+    100008: Character001Hub001Bone001Bone001Bone001
+    100010: Character001Hub001Bone001Bone001Bone002
+    100012: Character001Hub001Bone001Bone002
+    100014: Character001Hub001Bone001Bone002Bone001
+    100016: Character001Hub001Bone001Bone002Bone001 1
+    100018: Character001Hub001Bone001Bone002Bone001Bone001
+    100020: Character001Hub001Bone001Bone002Bone001Bone001 1
+    100022: Character001Hub001Bone001Bone003
+    100024: Character001LLeg1
+    100026: Character001LLeg2
+    100028: Character001LLegPlatform
+    100030: Character001RLeg1
+    100032: Character001RLeg2
+    100034: Character001RLegPlatform
+    100036: Golem
+    100038: Golem_Arm
+    100040: Golem_Body
+    100042: //RootNode
+    400000: Character001
+    400002: Character001Hub001
+    400004: Character001Hub001Bone001
+    400006: Character001Hub001Bone001Bone001
+    400008: Character001Hub001Bone001Bone001Bone001
+    400010: Character001Hub001Bone001Bone001Bone002
+    400012: Character001Hub001Bone001Bone002
+    400014: Character001Hub001Bone001Bone002Bone001
+    400016: Character001Hub001Bone001Bone002Bone001 1
+    400018: Character001Hub001Bone001Bone002Bone001Bone001
+    400020: Character001Hub001Bone001Bone002Bone001Bone001 1
+    400022: Character001Hub001Bone001Bone003
+    400024: Character001LLeg1
+    400026: Character001LLeg2
+    400028: Character001LLegPlatform
+    400030: Character001RLeg1
+    400032: Character001RLeg2
+    400034: Character001RLegPlatform
+    400036: Golem
+    400038: Golem_Arm
+    400040: Golem_Body
+    400042: //RootNode
+    4300000: Golem_Arm
+    4300002: Golem_Body
+    9500000: //RootNode
+    13700000: Golem_Arm
+    13700002: Golem_Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

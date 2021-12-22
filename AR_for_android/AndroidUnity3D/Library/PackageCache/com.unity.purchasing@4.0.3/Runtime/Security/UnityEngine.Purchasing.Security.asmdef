@@ -1,0 +1,21 @@
+{
+    "name": "UnityEngine.Purchasing.Security",
+    "references": [
+        "Purchasing.Common",
+        "UnityEngine.Purchasing.SecurityCore"
+    ],
+    "includePlatforms": [
+        "Android",
+        "iOS",
+        "macOSStandalone",
+        "tvOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,8 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="project-settings-section-container">
+        <Label text="Test mode" class="project-settings-title"/>
+        <Label name="TestModeDescription" text="Use test mode during development"/>
+        <Toggle name="ToggleTestMode" text="Enable test mode" class="toggle-section"/>
+    </VisualElement>
+    <VisualElement class="separator"/>
+</UXML>

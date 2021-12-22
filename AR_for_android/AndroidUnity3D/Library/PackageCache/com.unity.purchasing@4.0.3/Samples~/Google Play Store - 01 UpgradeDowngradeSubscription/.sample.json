@@ -1,0 +1,5 @@
+{
+  "displayName": "Google Play Store - 01 Upgrading and Downgrading Subscriptions",
+  "description": "This sample showcases how to use the Google Play Store extensions to upgrade and downgrade subscriptions. This allows players to change their subscription, and pay a different amount of money for a different level of service.",
+  "createSeparatePackage": false
+}

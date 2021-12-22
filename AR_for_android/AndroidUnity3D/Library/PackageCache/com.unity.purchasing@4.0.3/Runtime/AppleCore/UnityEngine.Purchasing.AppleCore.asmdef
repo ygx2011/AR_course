@@ -1,0 +1,15 @@
+{
+    "name": "UnityEngine.Purchasing.AppleCore",
+    "references": [
+        "Purchasing.Common"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

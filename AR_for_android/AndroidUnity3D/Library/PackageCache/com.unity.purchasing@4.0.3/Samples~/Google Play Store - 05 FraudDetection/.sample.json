@@ -1,0 +1,5 @@
+{
+  "displayName": "Google Play Store - 05 Fraud Detection",
+  "description": "This sample showcases how to provide to the Google Play Store your user's identifiers to help prevent fraud.",
+  "createSeparatePackage": false
+}

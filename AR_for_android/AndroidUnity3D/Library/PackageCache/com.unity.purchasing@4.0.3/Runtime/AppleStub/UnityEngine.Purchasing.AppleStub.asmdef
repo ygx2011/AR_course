@@ -1,0 +1,20 @@
+{
+    "name": "UnityEngine.Purchasing.AppleStub",
+    "rootNamespace": "",
+    "references": [
+        "Purchasing.Common",
+        "UnityEngine.Purchasing.AppleCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "iOS",
+        "tvOS"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

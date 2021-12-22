@@ -1,0 +1,65 @@
+.multi-field-block {
+    padding:10px 0 0 10px;
+    flex-grow:1;
+    flex-shrink:1; /* shrink to fit container */
+    flex-direction:row;
+}
+
+/* Setting Titles */
+.multi-field-block .title {
+    -unity-font-style:bold;
+    padding-left:0;
+    padding-bottom:5px;
+    padding-top:5px;
+    white-space:normal;
+    width: 30%; /* width of virtual column */
+}
+
+.platform-tag {
+    -unity-font-style:bold;
+    margin-left:4px;
+    margin-bottom:4px;
+    border-radius:2px;
+    padding:0px 5px;
+}
+
+.multi-field-block .tag-container {
+    padding:0;
+    flex-direction:row;
+    flex-grow: 0; /* fit tightly */
+    flex-wrap:wrap;
+    align-self: flex-start;
+}
+
+/*padding around any text item*/
+.multi-field-block .unity-text-element {
+    padding: 3px;
+}
+
+.icon-text__image {
+    flex-direction:row;
+    flex-grow: 0;
+    width:24px;
+    height:24px;
+    padding: 3px;
+}
+
+.icon-text__label {
+    flex-direction:row;
+    flex-grow: 0;
+    padding: 3px;
+}
+
+.label {
+    padding: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgui-editorguipopup {
+    flex-direction:row;
+    flex-grow: 0;
+
+    width: 200px;
+    height: 24px;
+}

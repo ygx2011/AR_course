@@ -1,0 +1,19 @@
+{
+    "name": "UnityEngine.Purchasing.AppleMacosStub",
+    "rootNamespace": "",
+    "references": [
+        "Purchasing.Common",
+        "UnityEngine.Purchasing.AppleCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "macOSStandalone"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

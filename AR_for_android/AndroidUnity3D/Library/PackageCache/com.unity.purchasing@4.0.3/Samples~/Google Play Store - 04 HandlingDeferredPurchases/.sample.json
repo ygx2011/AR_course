@@ -1,0 +1,5 @@
+{
+  "displayName": "Google Play Store - 04 Handling Deferred Purchases",
+  "description": "This sample showcases how to handle deferred purchases using the Google Play Store extensions and configurations.",
+  "createSeparatePackage": false
+}

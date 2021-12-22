@@ -1,0 +1,17 @@
+{
+    "name": "UnityEngine.Purchasing.WinRTStub",
+    "references": [
+        "UnityEngine.Purchasing.WinRTCore"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WSA"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,181 @@
+.project-settings-header-container {
+    flex-direction: row;
+}
+
+.project-settings-service-specific-container {
+    flex-grow: 1;
+}
+
+.service-toggle-container {
+    width: 75px;
+    height: 75px;
+    justify-content: center;
+}
+
+.service-toggle-container > .unity-toggle {
+    width: 38px;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input {
+    cursor: link;
+    width: 38px;
+    flex-grow: 0;
+    justify-content: center;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input > .unity-toggle__text {
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: link;
+    padding: 1px 3px 1px 2px;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input > .unity-toggle__checkmark {
+    background-image: initial;
+    width: 0;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input:checked > .unity-toggle__checkmark {
+    background-image: initial;
+}
+
+.project-settings-title-container,
+.project-settings-section-container {
+    padding: 4px 4px 4px 8px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.project-settings-title {
+    font-size: 16px;
+    -unity-font-style: bold;
+}
+
+.project-settings-title-container.main-title {
+    flex-direction: row;
+}
+
+.project-settings-title-container.description {
+    flex-direction: column;
+}
+
+.multi-field-block,
+.field-block {
+    padding: 0 0 0 10px;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.field-block.link-button {
+    padding-left: 10px;
+}
+
+.label-container {
+    flex-direction: row;
+    align-items: flex-start;
+    white-space: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.link-button {
+    flex-grow: 0;
+    align-self: flex-start;
+    padding: 5px 5px 5px 0;
+    cursor: link;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    margin-top: 0;
+    margin-bottom: 0;
+    border-width: 0;
+}
+
+.link-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.link-button > .unity-text-element {
+    cursor: link;
+    flex-grow: 0;
+}
+
+.link-button:hover > .unity-text-element {
+    cursor: link;
+    color: #81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.external-link-icon {
+    width: 16px;
+    height: 16px;
+    cursor: link;
+    margin-left: 5px;
+    -unity-background-image-tint-color: #D2D2D2; /*from dark.uss --unity-text-color*/
+    background-image: resource("Builtin Skins/Shared/Images/ServicesWindow-ExternalLink.png");
+}
+
+.separator {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 2px;
+}
+
+.ads .service-icon {
+    background-image: resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Ads.png");
+}
+
+.service-link-button,
+.field-block.link-button {
+    border-width: 0;
+    -unity-text-align: middle-left;
+    align-self: flex-start;
+    padding-left: 1px;
+    padding-right: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: link;
+    flex-grow: 0;
+}
+
+.toggle-section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.package-info-display {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.package-info {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#GoToDashboard,
+#GettingStarted,
+#GoToWebDashboard {
+    padding-left: 0;
+    margin-left: 1px;
+}
+
+#GoToPackManButton,
+#InstallLatestVersion {
+    flex-grow: 0;
+    width: 160px;
+}
+
+#GoToPackManUIDisplay {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#InstallLatestVersion,
+#SameVersionInfo {
+    align-self: flex-end;
+}

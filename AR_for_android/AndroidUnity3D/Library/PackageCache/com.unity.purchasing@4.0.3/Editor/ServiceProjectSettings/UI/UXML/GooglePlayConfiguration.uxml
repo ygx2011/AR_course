@@ -1,0 +1,62 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="GoogleConfigBlock" class="project-settings-title-container">
+        <Label text="Google Play Configuration" class="project-settings-title"/>
+        <VisualElement>
+            <Label text="Please follow these steps to get your license key:" class="description"/>
+            <VisualElement class="label-container">
+                <Label text="1. Go to " class="numbered-item"/>
+                <Button name="GooglePlayLink" class="link-button">
+                    <TextElement text="Google Play Developer Console"/>
+                    <VisualElement class="external-link-icon"/>
+                </Button>
+            </VisualElement>
+            <Label text="2. Go to your appropriate project." class="numbered-item"/>
+            <Label text="3. Go to &quot;Services and API&quot;, there you will find your License Key " class="numbered-item"/>
+        </VisualElement>
+        <VisualElement name="RevenueValidationBlock">
+            <Label text="Revenue Validation" class="project-settings-subtitle"/>
+            <Label text="Revenue data will be sent to Unity Analytics." class="note-tag"/>
+            <VisualElement class="warning-label-container">
+                <TextField name="GooglePlayKeyEntry" class="multiline-field-value" text="-Enter Key-" multiline="true"/>
+                <VisualElement class="button-container">
+                    <Button name="UpdateGooglePlayKeyBtn" text="Verify" class="submit-button"/>
+                </VisualElement>
+            </VisualElement>
+            <VisualElement name="verified-mode">
+                <Label text="Great! You will now be able to track verified transactions taking place on your app." class="description"/>
+            </VisualElement>
+            <VisualElement name="unverified-mode">
+                <VisualElement name="error-key-format">
+                    <Label text="Please enter the key in a valid format." class="warning-message"/>
+                </VisualElement>
+                <VisualElement name="error-unauthorized-user">
+                    <Label text="You are not authorized to set the license key." class="warning-message"/>
+                </VisualElement>
+                <VisualElement name="error-server-error">
+                    <Label text="There was an error submitting key to server. Please try again." class="warning-message"/>
+                </VisualElement>
+                <VisualElement name="error-fetch-key">
+                    <Label text="There was an error checking server for existing key. Please try again later." class="warning-message"/>
+                    <VisualElement class="warning-label-container">
+                        <VisualElement class="warning-info-icon2x"/>
+                        <Label text="Please enter your Google Public Key for this application to ensure revenue numbers reflect verified payments for Google." class="warning-message"/>
+                    </VisualElement>
+                </VisualElement>
+            </VisualElement>
+        </VisualElement>
+        <VisualElement name="ReceiptObfuscatorBlock">
+            <Label text="Receipt Obfuscator" class="project-settings-subtitle"/>
+            <Label text="Receipt obfuscation for Google Play will create a Tangle class in your project, note that this does not replace server side validation." class="label-container"/>
+            <VisualElement class="button-container">
+                <Button name="ObfuscateKeysButton" text="Obfuscate License Keys" class="submit-button"/>
+            </VisualElement>
+            <VisualElement name="verification">
+                <Label text="GooglePlayTangle.cs has been generated and exists in your project." class="label-container"/>
+            </VisualElement>
+            <VisualElement name="error-message">
+                <Label text="-Google Errors Show Here-." class="warning-message"/>
+            </VisualElement>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator" />
+</UXML>

@@ -1,0 +1,5 @@
+{
+  "displayName": "Google Play Store - 02 Restoring Transactions",
+  "description": "This sample showcases how to use the Google Play Store extensions to restore transactions. This allows users to be granted Non-Consumable and Subscription products they already own after reinstalling the application.",
+  "createSeparatePackage": false
+}

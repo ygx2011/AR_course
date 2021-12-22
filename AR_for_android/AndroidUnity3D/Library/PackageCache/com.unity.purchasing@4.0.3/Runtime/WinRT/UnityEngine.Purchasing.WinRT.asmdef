@@ -1,0 +1,17 @@
+{
+    "name": "UnityEngine.Purchasing.WinRT",
+    "references": [
+        "UnityEngine.Purchasing.WinRTCore"
+    ],
+    "includePlatforms": [
+        "WSA"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

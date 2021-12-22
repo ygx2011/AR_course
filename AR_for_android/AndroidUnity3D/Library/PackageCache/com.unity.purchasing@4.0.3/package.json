@@ -1,0 +1,117 @@
+{
+  "name": "com.unity.purchasing",
+  "displayName": "In App Purchasing",
+  "unity": "2019.4",
+  "_upm": {
+    "gameService": {
+      "groupIndex": 4,
+      "groupName": "Monetize",
+      "configurePath": "Project/Services/In-App Purchasing",
+      "genericDashboardUrl": "https://unity3d.com/unity/features/iap"
+    },
+    "supportedPlatforms": [
+      "Android",
+      "iOS"
+    ]
+  },
+  "version": "4.0.3",
+  "description": "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing + the Asset Store plugin) versions 2.x to version 3.x, complete the following actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json and BillingMode.json\n\tFROM: Assets/Plugins/UnityPurchasing/Resources/\n\tTO: Assets/Resources/.\n 2. Move AppleTangle.cs and GooglePlayTangle.cs\n\tFROM: Assets/Plugins/UnityPurchasing/generated\n\tTO: Assets/Scripts/UnityPurchasing/generated.\n 3. Remove all remaining Asset Store plugin folders and files in Assets/Plugins/UnityPurchasing from your project.\n\nPACKAGE DESCRIPTION:\n\nWith Unity IAP, setting up in-app purchases for your game across multiple app stores has never been easier.\n\nThis package provides:\n\n ▪ One common API to access all stores for free so you can fully understand and optimize your in-game economy\n ▪ Automatic coupling with Unity Analytics to enable monitoring and decision-making based on trends in your revenue and purchase data across multiple platforms\n ▪ Support for iOS, Mac, tvOS, Google Play, Windows, and Amazon app stores(*).\n ▪ Support to work with the Unity Distribution Portal to synchronize catalogs and transactions with other app stores\n ▪ Client-side receipt validation for Apple App Store and Google Play\n\nAfter installing this package, open the Services Window to enable In-App Purchasing to use these features.",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0",
+    "com.unity.modules.unityanalytics": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.services.core": "1.0.1"
+  },
+  "keywords": [
+    "purchasing",
+    "iap",
+    "unity"
+  ],
+  "license": "Unity Companion Package License v1.0",
+  "hideInEditor": false,
+  "relatedPackages": {
+    "com.unity.purchasing.tests": "4.0.3"
+  },
+  "upmCi": {
+    "footprint": "53f8240fcc408eddb86317bf54a6e6ad32be1157"
+  },
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git",
+    "type": "git",
+    "revision": "4dccbbbbdb61c481d208d59a92c0c058ccad4e32"
+  },
+  "samples": [
+    {
+      "displayName": "01 Buying Consumables",
+      "description": "This sample showcases the basics of how to initialize in-app purchases and handle a simple consumable purchase.",
+      "path": "Samples~/01 BuyingConsumables"
+    },
+    {
+      "displayName": "02 Buying Subscription",
+      "description": "This sample showcases the basics of how to handle subscription purchases and the usage of SubscriptionManager to retrieve information about a subscription.",
+      "path": "Samples~/02 BuyingSubscription"
+    },
+    {
+      "displayName": "03 Fetching Additional Products",
+      "description": "This sample showcases how to fetch additional products using the Store Controller.",
+      "path": "Samples~/03 FetchingAdditionalProducts"
+    },
+    {
+      "displayName": "04 Integrating Self-Provided Backend Receipt Validation",
+      "description": "This sample showcases how to integrate your own backend validation with Unity IAP.",
+      "path": "Samples~/04 IntegratingSelfProvidedBackendReceiptValidation"
+    },
+    {
+      "displayName": "05 Local Receipt Validation",
+      "description": "This sample showcases how to use the cross-platform validator to do local receipt validation with the Google Play Store and Apple App Store.",
+      "path": "Samples~/05 LocalReceiptValidation"
+    },
+    {
+      "displayName": "Apple App Store - 01 Refreshing App Receipts",
+      "description": "This sample shows how to refresh Apple App Store receipts.",
+      "path": "Samples~/Apple App Store - 01 RefreshingAppReceipt"
+    },
+    {
+      "displayName": "Apple App Store - 02 Restoring Transactions",
+      "description": "This sample showcases how to use Apple extensions to restore transactions. This allows users to be granted Non-Consumable and Subscription products they already own after reinstalling the application.",
+      "path": "Samples~/Apple App Store - 02 RestoringTransactions"
+    },
+    {
+      "displayName": "Apple App Store - 03 Handling Deferred Purchases",
+      "description": "This sample showcases how to handle deferred purchases using Apple extensions and configurations.",
+      "path": "Samples~/Apple App Store - 03 HandlingDeferredPurchases"
+    },
+    {
+      "displayName": "In App Purchasing Sample",
+      "description": "Sample Implementation of In App Purchasing.",
+      "path": "Samples~/Example"
+    },
+    {
+      "displayName": "Google Play Store - 01 Upgrading and Downgrading Subscriptions",
+      "description": "This sample showcases how to use the Google Play Store extensions to upgrade and downgrade subscriptions. This allows players to change their subscription, and pay a different amount of money for a different level of service.",
+      "path": "Samples~/Google Play Store - 01 UpgradeDowngradeSubscription"
+    },
+    {
+      "displayName": "Google Play Store - 02 Restoring Transactions",
+      "description": "This sample showcases how to use the Google Play Store extensions to restore transactions. This allows users to be granted Non-Consumable and Subscription products they already own after reinstalling the application.",
+      "path": "Samples~/Google Play Store - 02 RestoringTransactions"
+    },
+    {
+      "displayName": "Google Play Store - 03 Confirming Subscription Price Change",
+      "description": "This sample showcases how to use the Google Play Store extensions to confirm subscription price changes.",
+      "path": "Samples~/Google Play Store - 03 ConfirmingSubscriptionPriceChange"
+    },
+    {
+      "displayName": "Google Play Store - 04 Handling Deferred Purchases",
+      "description": "This sample showcases how to handle deferred purchases using the Google Play Store extensions and configurations.",
+      "path": "Samples~/Google Play Store - 04 HandlingDeferredPurchases"
+    },
+    {
+      "displayName": "Google Play Store - 05 Fraud Detection",
+      "description": "This sample showcases how to provide to the Google Play Store your user's identifiers to help prevent fraud.",
+      "path": "Samples~/Google Play Store - 05 FraudDetection"
+    }
+  ]
+}

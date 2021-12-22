@@ -1,0 +1,19 @@
+{
+    "name": "UnityEngine.Purchasing.AppleMacos",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.Purchasing.AppleCore",
+        "Purchasing.Common"
+    ],
+    "includePlatforms": [
+        "macOSStandalone"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,574 @@
+.project-settings-header-container {
+    flex-direction:row;
+}
+
+.project-settings-service-specific-container {
+    flex-grow:1;
+}
+
+.service-toggle-container {
+    width:75px;
+    height:75px;
+    justify-content:center;
+}
+
+.service-toggle-container > .unity-toggle {
+    width:38px;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input
+{
+    cursor:link;
+    width:38px;
+    flex-grow:0;
+    justify-content:center;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input > .unity-toggle__text
+{
+    border-width:1px;
+    border-radius:3px;
+    font-size:14px;
+    cursor:link;
+    padding:1px 3px 1px 2px;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input > .unity-toggle__checkmark
+{
+    background-image:initial;
+    width:0px;
+}
+
+.service-toggle-container > .unity-toggle > .unity-toggle__input:checked > .unity-toggle__checkmark
+{
+    background-image:initial;
+}
+
+.project-settings-title-container,
+.project-settings-section-container {
+    padding:4px 4px 4px 8px;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+.project-settings-title{
+    font-size:16px;
+    -unity-font-style:bold;
+}
+
+.project-settings-subtitle{
+    font-size:14px;
+    -unity-font-style:bold;
+}
+
+.project-settings-title-container.main-title {
+    flex-direction:row;
+}
+.project-settings-title-container.description{
+    flex-direction:column;
+}
+
+.multi-field-block,
+.field-block {
+    padding:0 0 0 10px;
+    flex-grow:1;
+    flex-direction:column;
+}
+
+.field-block .field-name {
+    -unity-font-style:bold;
+    padding-bottom:5px;
+}
+
+.field-block .button-container {
+    padding-top:10px;
+    flex-direction:row;
+}
+
+.multi-field-block .link-button-container,
+.field-block .link-button-container {
+    padding-top:0px;
+    flex-direction:row;
+}
+
+.field-block.link-button {
+    padding-left:10px;
+}
+
+.center-middle-block {
+    align-items:center;
+}
+
+.connecting-services-container,
+.offline-container,
+.logged-out-container {
+    padding-top:50px;
+}
+
+.center-middle-block > #RefreshBtn,
+.center-middle-block > #SignInBtn {
+    margin-top:20px;
+}
+
+.connecting-services-icon {
+    background-image:resource("Icons/console.infoicon.png");
+    width:32px;
+    height:32px;
+}
+
+.offline-icon,
+.logged-out-icon {
+    background-image:resource("Icons/console.warnicon.png");
+    width:32px;
+    height:32px;
+}
+
+.connecting-services-message,
+.offline-message,
+.logged-out-message {
+    font-size:30px;
+    width:210px;
+    padding-top:20px;
+    -unity-text-align:upper-center;
+}
+
+.label-container {
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+.link-button {
+    flex-grow:0;
+    align-self:flex-start;
+    padding:5px 5px 5px 0px;
+    cursor:link;
+    flex-direction:row;
+    background-color:rgba(0, 0, 0, 0);
+    border-color:rgba(0, 0, 0, 0);
+    margin-top:0px;
+    margin-bottom:0px;
+    border-width:0px;
+}
+
+.link-button:hover {
+    background-color:rgba(0, 0, 0, 0);
+    border-color:rgba(0, 0, 0, 0);
+}
+
+.link-button > .unity-text-element {
+    cursor:link;
+    flex-grow:0;
+}
+
+.link-button:hover > .unity-text-element {
+    cursor:link;
+}
+
+.external-link-icon {
+    width:16px;
+    width:16px;
+    height:16px;
+    cursor:link;
+    margin-left:5px;
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ExternalLink.png");
+}
+
+.multi-field-block .title {
+    -unity-font-style:bold;
+}
+
+.multi-field-block .title,
+.multi-field-block .description {
+    padding-left:0;
+    padding-bottom:5px;
+    padding-top:5px;
+    white-space:normal;
+}
+
+.multi-field-block .button-container {
+    flex-direction:row;
+}
+
+.platform-tag{
+    -unity-font-style:bold;
+    margin-left:4px;
+    margin-bottom:4px;
+}
+
+.note-tag{
+    flex-direction:row;
+    align-items:flex-start;
+    align-self:flex-start;
+    margin-bottom:5px;
+    margin-top:5px;
+}
+
+.platform-tag,
+.note-tag{
+    border-radius:2px;
+    padding:2px 5px;
+}
+
+.multi-field-block .tag-container {
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.multi-field-block .bullet-container {
+    flex-direction:column;
+}
+
+.bullet-item {
+    padding-left:20px;
+    padding-bottom:1px;
+}
+.field-block.link-button.bullet-item {
+    padding-left:20px;
+    padding-top:0px;
+    padding-bottom:1px;
+}
+
+.numbered-item {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.multi-field-block .link-button-container,
+.field-block .link-button-container {
+    padding-top:0px;
+    flex-direction:row;
+}
+
+.multi-field-block .edit-mode .link-button-container .link-button,
+.field-block .edit-mode .link-button-container .link-button {
+    flex-direction:row-reverse;
+    padding-top:0;
+}
+
+.multi-field-block .edit-mode .link-button-container,
+.multi-field-block .edit-mode .button-container,
+.field-block .edit-mode .link-button-container,
+.field-block .edit-mode .button-container {
+    flex-direction:row-reverse;
+}
+
+.field-block.link-button {
+    padding-left:10px;
+}
+
+.button-container > .link-button {
+    padding:0px 5px 0px 0px;
+}
+
+.link-button:hover {
+    background-color:rgba(0, 0, 0, 0);
+    border-color:rgba(0, 0, 0, 0);
+}
+
+.link-button > .unity-text-element {
+    cursor:link;
+    flex-grow:0;
+}
+
+.link-button:hover > .unity-text-element {
+    cursor:link;
+    color:#81B4FF; /*from dark.uss --unity-active-text-color*/
+}
+
+.info-icon {
+    align-self:center;
+    width:16px;
+    height:16px;
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-InfoTooltip.png");
+}
+
+.external-link-icon {
+    width:16px;
+    height:16px;
+    cursor:link;
+    margin-left:5px;
+    -unity-background-image-tint-color:#D2D2D2; /*from dark.uss --unity-text-color*/
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ExternalLink.png");
+}
+
+.multi-field-block .title {
+    -unity-font-style:bold;
+}
+
+.separator {
+    margin-top:5px;
+    margin-bottom:5px;
+    height:2px;
+}
+
+/* Addition from the Ads Service */
+.ads .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Ads.png");
+}
+
+.label-container {
+    white-space:normal;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.service-link-button,
+.field-block.link-button {
+    border-width:0px;
+    -unity-text-align:middle-left;
+    align-self:flex-start;
+    padding-left:1px;
+    padding-right:2px;
+    margin-left:1px;
+    margin-right:1px;
+    background-color:rgba(0, 0, 0, 0);
+    cursor:link;
+    flex-grow:0;
+}
+
+.toggle-section {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.package-info-display {
+    flex-direction:row;
+    justify-content:space-between;
+}
+.package-info {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#GoToDashboard,
+#GettingStarted,
+#GoToWebDashboard {
+    padding-left:0px;
+    margin-left:1px;
+}
+
+#GoToPackManButton,
+#InstallLatestVersion {
+    flex-grow:0;
+    width:160px;
+}
+#GoToPackManUIDisplay {
+    margin-top:10px;
+    margin-bottom:10px;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#InstallLatestVersion,
+#SameVersionInfo {
+    align-self:flex-end;
+}
+
+/* Additions from the CloudDiag Service */
+.clouddiag .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Crash.png");
+}
+
+.clouddiag #LearnMore, .collab #LearnMore,
+.cloudbuild #LearnMore {
+    margin-right:10px;
+    align-self:flex-end;
+}
+
+#CrashCapturePlayMode {
+    margin-left:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#CrashLogCount {
+    margin-left:5px;
+    margin-top:10px;
+    margin-bottom:10px;
+    max-width:250px;
+}
+
+
+/* Additions from the Collab Service */
+.collab .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Collab.png");
+}
+
+/* Additions from the Analytics Service */
+.analytics .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Analytics.png");
+}
+
+.play-image {
+    width:400px;
+    height:180px;
+}
+
+.pre-check-icon,
+.check-icon {
+    padding-right:10px;
+    width:35px;
+    height:35px;
+    flex-shrink:0;
+}
+
+.integrated-check-icon {
+    padding-right:10px;
+    width:40px;
+    height:40px;
+    flex-shrink:0;
+    background-image:resource("Builtin Skins/Shared/Images/integratedCheckLg.png");
+}
+
+.pre-check-icon {
+    background-image:resource("Builtin Skins/Shared/Images/icon_pre-checked.png");
+}
+
+.check-icon {
+    background-image:resource("Builtin Skins/Shared/Images/icon_checked.png");
+}
+
+.table {
+    flex-direction:column;
+}
+
+.table-header-row,
+.table-row {
+    flex-direction:row;
+    flex-wrap:nowrap;
+    padding:2px 0px;
+}
+
+.table-header {
+    -unity-font-style:bold;
+    min-width:96px;
+    flex-grow:1;
+    flex-shrink:1;
+}
+
+.table-header,
+.table-item {
+    min-height:32px;
+    padding:0px 10px;
+    margin:2px;
+    -unity-text-align:middle-left;
+    white-space:normal;
+}
+
+/* Additions from the Multiplayer Service */
+.multiplayer .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Unet.png");
+}
+
+.configuration-container {
+    margin:10px;
+}
+
+.mp-config-tag-container {
+    margin-top:2px;
+    padding-left:5px;
+    padding-right:5px;
+    flex-direction:row;
+}
+
+.mp-config-tag-title {
+    -unity-font-style:bold;
+    min-width:200px;
+    padding-left:5px;
+    flex-grow:1;
+    -unity-text-align:middle-left;
+    min-height:25px;
+}
+
+.mp-config-tag {
+    margin-left:10px;
+    margin-right:10px;
+    -unity-text-align:middle-left;
+    min-height:25px;
+    width:100px;
+}
+
+.refresh-button {
+    align-self:flex-start;
+}
+
+#CurrentConfiguration {
+    padding-left:10px;
+    padding-top:10px;
+}
+
+/* Additions from the Purchasing Service */
+.purchasing .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Purchasing.png");
+}
+
+.multiline-field-value {
+    white-space:normal;
+    width:256px;
+}
+
+.warning-label-container {
+    flex-direction:row;
+    flex-wrap:nowrap;
+}
+
+.warning-message {
+    padding-left:0;
+    padding-bottom:10px;
+    white-space:normal;
+    flex-shrink:1;
+}
+
+.warning-info-icon2x {
+    padding-right:5px;
+    width:32px;
+    height:32px;
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-InfoTooltip@2x.png");
+    flex-shrink:0;
+}
+
+/* Additions from the CloudBuild Service */
+.cloudbuild .service-icon {
+    background-image:resource("Builtin Skins/Shared/Images/ServicesWindow-ServiceIcon-Build.png");
+}
+
+.cloud-progress {
+    -unity-text-align:middle-center;
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.target-container-title {
+    margin:10px 0px 10px 8px;
+    font-size:16px;
+}
+
+.target-entry {
+    flex-direction:row;
+    padding:5px 0px 5px 8px;
+}
+
+.target-entry .title {
+    flex-grow:1;
+    -unity-text-align:middle-left;
+}
+
+.target-entry .build-button {
+    align-self:flex-end;
+}
+
+.target-footer {
+    padding-top:5px;
+    flex-direction:row;
+    justify-content:flex-end;
+}
+
+#StartUsingCloudBuild {
+    margin-left:8px;
+    white-space:nowrap;
+}
+
+#PollFooter {
+    display:none;
+}

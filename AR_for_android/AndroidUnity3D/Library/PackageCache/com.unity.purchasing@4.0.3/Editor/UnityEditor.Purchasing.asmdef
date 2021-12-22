@@ -1,0 +1,31 @@
+{
+    "name": "UnityEditor.Purchasing",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.Purchasing",
+        "Purchasing.Common",
+        "UnityEngine.Purchasing.Security",
+        "UnityEngine.Purchasing.SecurityCore",
+        "UnityEngine.Purchasing.SecurityStub",
+        "UnityEngine.Purchasing.Stores",
+        "UnityEngine.Purchasing.Codeless",
+        "Unity.Services.Core.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.core",
+            "expression": "1.0.0-pre",
+            "define": "SERVICES_SDK_CORE_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
+}

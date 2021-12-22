@@ -1,0 +1,5 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement name="ImageLabel" class="tag-container label">
+        <Label name="Label" class="icon-text__label"/>
+    </VisualElement>
+</UXML>

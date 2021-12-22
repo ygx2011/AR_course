@@ -1,0 +1,16 @@
+{
+    "name": "UnityEngine.Purchasing.Codeless",
+    "references": [
+        "UnityEngine.Purchasing",
+        "UnityEngine.Purchasing.Stores"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

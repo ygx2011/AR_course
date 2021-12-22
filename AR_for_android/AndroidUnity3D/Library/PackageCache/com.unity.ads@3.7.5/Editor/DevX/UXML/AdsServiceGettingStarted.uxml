@@ -1,0 +1,13 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <VisualElement class="project-settings-section-container">
+        <Label text="Getting Started" class="project-settings-title"/>
+        <Label class="label-container"
+               text="We&apos;ve made it as simple as possible to integrate ads into your game, to help you become more successful."/>
+
+        <VisualElement name="LearnMore" class="field-block link-button">
+            <TextElement text="Learn More" class="link-button"/>
+            <VisualElement class="external-link-icon"/>
+        </VisualElement>
+    </VisualElement>
+    <VisualElement class="separator"/>
+</UXML>
