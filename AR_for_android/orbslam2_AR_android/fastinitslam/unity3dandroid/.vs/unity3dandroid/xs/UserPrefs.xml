@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{3962F784-54A1-102F-27BF-B7772B05ABFC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/androidCam.cs">
+    <Files>
+      <File FileName="Assets/Scripts/androidCam.cs" Line="138" Column="23" />
+      <File FileName="Assets/Scripts/imuTest.cs" />
+      <File FileName="Assets/Scripts/GyroController.cs" />
+      <File FileName="Assets/Shaders/ImageEffect.shader" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="unity3dandroid" expanded="True">
+            <Node name="Assets" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1d7c8890-ef7b-4f4f-b93c-c4a610fa8eaa" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
