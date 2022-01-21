@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		606EACA71D767B25009BD6FA /* iosopencva.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 606EACA61D767B25009BD6FA /* iosopencva.h */; };
+		606EACA91D767B25009BD6FA /* iosopencva.mm in Sources */ = {isa = PBXBuildFile; fileRef = 606EACA81D767B25009BD6FA /* iosopencva.mm */; };
+		606EACB01D767C38009BD6FA /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606EACAF1D767C38009BD6FA /* opencv2.framework */; };
+		606EACB21D767C51009BD6FA /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606EACB11D767C51009BD6FA /* AssetsLibrary.framework */; };
+		606EACB41D767C5F009BD6FA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606EACB31D767C5F009BD6FA /* AVFoundation.framework */; };
+		606EACB71D767C6D009BD6FA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606EACB51D767C6D009BD6FA /* CoreData.framework */; };
+		606EACB81D767C6E009BD6FA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606EACB61D767C6D009BD6FA /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		606EACA11D767B25009BD6FA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				606EACA71D767B25009BD6FA /* iosopencva.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		606EACA31D767B25009BD6FA /* libiosopencva.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiosopencva.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		606EACA61D767B25009BD6FA /* iosopencva.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iosopencva.h; sourceTree = "<group>"; };
+		606EACA81D767B25009BD6FA /* iosopencva.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iosopencva.mm; sourceTree = "<group>"; };
+		606EACAF1D767C38009BD6FA /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		606EACB11D767C51009BD6FA /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		606EACB31D767C5F009BD6FA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		606EACB51D767C6D009BD6FA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		606EACB61D767C6D009BD6FA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606EACA01D767B25009BD6FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606EACB71D767C6D009BD6FA /* CoreData.framework in Frameworks */,
+				606EACB81D767C6E009BD6FA /* CoreMedia.framework in Frameworks */,
+				606EACB41D767C5F009BD6FA /* AVFoundation.framework in Frameworks */,
+				606EACB21D767C51009BD6FA /* AssetsLibrary.framework in Frameworks */,
+				606EACB01D767C38009BD6FA /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606EAC9A1D767B25009BD6FA = {
+			isa = PBXGroup;
+			children = (
+				606EACB51D767C6D009BD6FA /* CoreData.framework */,
+				606EACB61D767C6D009BD6FA /* CoreMedia.framework */,
+				606EACB31D767C5F009BD6FA /* AVFoundation.framework */,
+				606EACB11D767C51009BD6FA /* AssetsLibrary.framework */,
+				606EACA51D767B25009BD6FA /* iosopencva */,
+				606EACA41D767B25009BD6FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606EACA41D767B25009BD6FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606EACA31D767B25009BD6FA /* libiosopencva.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		606EACA51D767B25009BD6FA /* iosopencva */ = {
+			isa = PBXGroup;
+			children = (
+				606EACAF1D767C38009BD6FA /* opencv2.framework */,
+				606EACA61D767B25009BD6FA /* iosopencva.h */,
+				606EACA81D767B25009BD6FA /* iosopencva.mm */,
+			);
+			path = iosopencva;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606EACA21D767B25009BD6FA /* iosopencva */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606EACAC1D767B25009BD6FA /* Build configuration list for PBXNativeTarget "iosopencva" */;
+			buildPhases = (
+				606EAC9F1D767B25009BD6FA /* Sources */,
+				606EACA01D767B25009BD6FA /* Frameworks */,
+				606EACA11D767B25009BD6FA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosopencva;
+			productName = iosopencva;
+			productReference = 606EACA31D767B25009BD6FA /* libiosopencva.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606EAC9B1D767B25009BD6FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ying Gaoxuan";
+				TargetAttributes = {
+					606EACA21D767B25009BD6FA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 606EAC9E1D767B25009BD6FA /* Build configuration list for PBXProject "iosopencva" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 606EAC9A1D767B25009BD6FA;
+			productRefGroup = 606EACA41D767B25009BD6FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606EACA21D767B25009BD6FA /* iosopencva */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606EAC9F1D767B25009BD6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606EACA91D767B25009BD6FA /* iosopencva.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		606EACAA1D767B25009BD6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		606EACAB1D767B25009BD6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		606EACAD1D767B25009BD6FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosopencva",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		606EACAE1D767B25009BD6FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosopencva",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606EAC9E1D767B25009BD6FA /* Build configuration list for PBXProject "iosopencva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606EACAA1D767B25009BD6FA /* Debug */,
+				606EACAB1D767B25009BD6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606EACAC1D767B25009BD6FA /* Build configuration list for PBXNativeTarget "iosopencva" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606EACAD1D767B25009BD6FA /* Debug */,
+				606EACAE1D767B25009BD6FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606EAC9B1D767B25009BD6FA /* Project object */;
+}

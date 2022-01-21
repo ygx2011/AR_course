@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  iosOpenCVdemo
+//
+//  Created by 应高选 on 15/11/3.
+//  Copyright © 2015年 应高选. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#import <opencv2/stitching/detail/blenders.hpp>
+#import <opencv2/stitching/detail/exposure_compensate.hpp>
+#endif
+
+#endif /* PrefixHeader_pch */
