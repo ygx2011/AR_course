@@ -1,0 +1,17 @@
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/UnityEngine.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/UnityEditor.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/Yinggx/Desktop/unity3dios/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/Yinggx/Desktop/unity3dios/obj/Debug/Assembly-CSharp.dll
+/Users/Yinggx/Desktop/unity3dios/obj/Debug/Assembly-CSharp.dll.mdb

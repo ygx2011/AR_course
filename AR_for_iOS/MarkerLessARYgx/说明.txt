@@ -1,0 +1,14 @@
+简单说明一下环境哈：
+xcode用的是13.2.1的;
+unity用的是2018的lts的，用2020的lts的也是可以的哈~
+手机是iPhone12pro，系统是iOS 15.2的哈~
+然后OpenCV for iOS 用的是opencv2.4.13的iOS的framework;
+
+注意：
+opencv for ios的包比较大，我就不上传了，去opencv官网上下载对应版本然后解压放到相应路径就行；
+
+iosopencva这个工程是打包算法.a静态库的；
+iosOpenCVmarkerless这个工程是直接在苹果手机上跑marker跟踪算法的；
+unity3dios这个工程是unity工程哈，这3个工程都需要放opencv2.framework !!!
+
+然后unity2xcode是unity打包出来的xcode工程，这个我也不上传了，自行用unity打包一下就行哈~
