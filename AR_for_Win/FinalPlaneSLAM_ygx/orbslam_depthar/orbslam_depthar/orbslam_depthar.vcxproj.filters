@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Auxiliary">
+      <UniqueIdentifier>{59b7e28b-c01d-4cc0-9672-3c59736e1fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoopClosing">
+      <UniqueIdentifier>{b2df9a40-61c9-4fb7-8375-54eb2865ec35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapping">
+      <UniqueIdentifier>{0bee39d4-c400-4e48-b7ee-1aa258f4b631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tracking">
+      <UniqueIdentifier>{95e72c0b-900c-4901-a3b2-66029e288d86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Converter.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Initializer.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Optimizer.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Sim3Solver.cpp">
+      <Filter>Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="LoopClosing.cpp">
+      <Filter>LoopClosing</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrame.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyFrameDatabase.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalMapping.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPoint.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPublisher.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="PnPsolver.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="ORBextractor.cpp">
+      <Filter>Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="ORBmatcher.cpp">
+      <Filter>Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracking.cpp">
+      <Filter>Tracking</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FramePublisher.cpp">
+      <Filter>Mapping</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Converter.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Initializer.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Optimizer.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Sim3Solver.h">
+      <Filter>Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="LoopClosing.h">
+      <Filter>LoopClosing</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrame.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyFrameDatabase.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalMapping.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPoint.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPublisher.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="PnPsolver.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="ORBextractor.h">
+      <Filter>Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="ORBmatcher.h">
+      <Filter>Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="ORBVocabulary.h">
+      <Filter>Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracking.h">
+      <Filter>Tracking</Filter>
+    </ClInclude>
+    <ClInclude Include="FramePublisher.h">
+      <Filter>Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveLoadWorld.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

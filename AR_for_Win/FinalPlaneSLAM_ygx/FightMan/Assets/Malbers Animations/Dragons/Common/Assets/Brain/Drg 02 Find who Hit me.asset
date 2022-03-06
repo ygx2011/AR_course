@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: Drg 02 Find who Hit me
+  m_EditorClassIdentifier: 
+  ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  tasks:
+  - {fileID: 6438739334851869448}
+  transitions:
+  - decision: {fileID: 5058389007052093970}
+    trueState: {fileID: 11400000, guid: 35bf5422ac7dea04cadd82c78deedb91, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: -463397907862783460, guid: 35bf5422ac7dea04cadd82c78deedb91,
+      type: 2}
+    trueState: {fileID: 11400000, guid: 7c78d1cbd0889d84d82402826dc35d4f, type: 2}
+    falseState: {fileID: 0}
+  GizmoStateColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  CreateTaskAsset: 1
+  CreateDecisionAsset: 1
+--- !u!114 &5058389007052093970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00a63bfc37e3794ea3b0af5a3c6381e, type: 3}
+  m_Name: D_Is Player near me
+  m_EditorClassIdentifier: 
+  Description: 'True if we have the Animal Main Player on Sight.
+
+
+    Do not assign
+    it as Target!'
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  LookRange:
+    UseConstant: 0
+    ConstantValue: 7
+    Variable: {fileID: 11400000, guid: 70cf0d8e420e4734ea10ecb47239c492, type: 2}
+  LookAngle: 360
+  lookFor: 0
+  ObstacleLayer:
+    UseConstant: 1
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 1
+    Variable: {fileID: 0}
+  AssignTarget: 1
+  MoveToTarget: 1
+  RemoveTarget: 0
+  UnityTag: 
+  GameObjectName: 
+  transform: {fileID: 0}
+  gameObject: {fileID: 0}
+  tags: []
+  zoneType: 0
+  ZoneID: 0
+  ZoneModeAbility: -1
+  debugColor: {r: 1, g: 0.0627451, b: 0, a: 0.24313726}
+--- !u!114 &6438739334851869448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20de7ec569e280e4dbc951b31fe6319e, type: 3}
+  m_Name: T_Stop
+  m_EditorClassIdentifier: 
+  Description: 'Stop
+
+'
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  task: 3
+  distance:
+    UseConstant: 1
+    ConstantValue: 10
+    Variable: {fileID: 0}
+  distanceThreshold:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  stoppingDistance:
+    UseConstant: 1
+    ConstantValue: 0.5
+    Variable: {fileID: 0}
+  direction: 0
+  arcsCount: 12
+  UpdateFleeMovingTarget: 1
+  LookAtTarget: 1
+  Interact: 1
+  interval: 0.2
+  debugColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.25}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fcb0528820550499d051030855ca6d, type: 3}
+  m_Name: README!
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 2044553abe6893e47b7abe476a2f0291, type: 3}
+  title: Malbers Animations Assets
+  sections:
+  - heading: Thank you!!
+    text: Thanks so much for purchasing any of my assets I really appreciate it and
+      I hope you make awesome games with it!
+    linkText: 
+    url: 
+  - heading: Malbers Animal Controller
+    text: 'All the Animals & Creatures use the [Animal Controller] to take advantage
+      of all the animations my little guys have. You can find it on the AssetStore
+      here:'
+    linkText: "\u25BA\u25BADOWNLOAD ANIMAL CONTROLLER\u25C4\u25C4"
+    url: https://assetstore.unity.com/packages/slug/148877?aid=1100lHT6
+  - heading: DOCUMENTATION | MANUAL
+    text: Here is a detailed documentation that explores all the available prefabs,
+      scripts and components that make up the mechanics of the Animal Controller.
+    linkText: '[DOCUMENTATION]'
+    url: https://malbersanimations.gitbook.io/animal-controller/
+  - heading: Render Piplelines
+    text: Go to Tools -> Malbers Animations -> Upgrade Malbers Shaders to URP
+    linkText: 
+    url: 
+  - heading: 
+    text: Go to Tools -> Malbers Animations -> Upgrade Malbers Shaders to HDRP
+    linkText: 
+    url: 
+  - heading: Integrations
+    text: All Malbers' Assets have integrations with the most popular Assets on the
+      Store. More are being added constantly
+    linkText: Official Integrations
+    url: https://malbersanimations.gitbook.io/animal-controller/annex/integrations
+  - heading: Got Feedback?
+    text: 'Let us know what you think or ask any questions you might have in the
+      FORUM. '
+    linkText: Forum Thread (Animals)
+    url: https://forum.unity.com/threads/440812/
+  - heading: Discord
+    text: We have Discord now! This is the best way to chat with me and help you
+      out with any issues you may have
+    linkText: DISCORD
+    url: https://discord.gg/aWRmZjTR
+  - heading: Social
+    text: Follow me to stay tuned for new Assets and Updates
+    linkText: Facebook
+    url: https://www.facebook.com/MalberSAnimations
+  - heading: 
+    text: 
+    linkText: Twitter
+    url: https://twitter.com/MalberShark
+  - heading: 
+    text: 
+    linkText: Reddit
+    url: https://www.reddit.com/user/Malbers_Animations
+  packages: []

@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4710798869783421857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9176d65901bdc7c4bbcc36cf5d310741, type: 3}
+  m_Name: T_Combat Stance
+  m_EditorClassIdentifier: 
+  Description: Set a stance to Combat
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  affect: 0
+  stance: {fileID: 11400000, guid: 5338df2a5c63c6b4a8049349b3eb0171, type: 2}
+--- !u!114 &-1720226796564172020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20de7ec569e280e4dbc951b31fe6319e, type: 3}
+  m_Name: T_Circle Around
+  m_EditorClassIdentifier: 
+  Description: Circle around the current Target
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  task: 6
+  distance:
+    UseConstant: 1
+    ConstantValue: 5
+    Variable: {fileID: 0}
+  distanceThreshold:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  stoppingDistance:
+    UseConstant: 1
+    ConstantValue: 0.5
+    Variable: {fileID: 0}
+  direction: 0
+  arcsCount: 12
+  UpdateFleeMovingTarget: 1
+  LookAtTarget: 1
+  Interact: 1
+  interval: 0.2
+  debugColor: {r: 1, g: 0.67668825, b: 0, a: 0.25}
+--- !u!114 &-463397907862783460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb15355fb5af304ebab1307cd8dab67, type: 3}
+  m_Name: D_Wait 4-7 sec
+  m_EditorClassIdentifier: 
+  Description: Wait 4~7 Sec
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  WaitMinTime:
+    UseConstant: 1
+    ConstantValue: 4
+    Variable: {fileID: 0}
+  WaitMaxTime:
+    UseConstant: 1
+    ConstantValue: 7
+    Variable: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: Drg 02 Circle Around
+  m_EditorClassIdentifier: 
+  ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  tasks:
+  - {fileID: -1720226796564172020}
+  - {fileID: 1554363325886573273}
+  - {fileID: -4710798869783421857}
+  - {fileID: 2460284179467418036}
+  transitions:
+  - decision: {fileID: -463397907862783460}
+    trueState: {fileID: 11400000, guid: c97964786e7dd7148a203620f1f15144, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: 7521351367218256040}
+    trueState: {fileID: 0}
+    falseState: {fileID: 11400000, guid: 7c78d1cbd0889d84d82402826dc35d4f, type: 2}
+  GizmoStateColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  CreateTaskAsset: 1
+  CreateDecisionAsset: 1
+--- !u!114 &1554363325886573273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55f5af15654a1848a5d62c35156dfe9, type: 3}
+  m_Name: T_Speed to Run
+  m_EditorClassIdentifier: 
+  Description: Speed to Run
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  affect: 0
+  SpeedSet: Ground
+  SpeedIndex:
+    UseConstant: 1
+    ConstantValue: 3
+    Variable: {fileID: 0}
+--- !u!114 &2460284179467418036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aaefcc8cb0c31046bdac1700fd93837, type: 3}
+  m_Name: T_Look Targets Spine
+  m_EditorClassIdentifier: 
+  Description: 'Find a child gameObject with the name given on the Target and set
+    it as the Target for the Look At and the Aim Component on the Animal '
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  SetLookAtOn: 0
+  LookAtTargetS: 0
+  LookAtTargetT: 0
+  TargetVar: {fileID: 0}
+  UseTag: 0
+  BoneName: Spine
+  tag: {fileID: 0}
+  DisableOnExit: 1
+  showTransformVar: 0
+  ShowOption1: 1
+--- !u!114 &7521351367218256040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00a63bfc37e3794ea3b0af5a3c6381e, type: 3}
+  m_Name: D_Keep Player on Sight
+  m_EditorClassIdentifier: 
+  Description: 'True if we have the Animal Main Player on Sight.
+
+
+    Do not assign
+    it as Target!'
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  LookRange:
+    UseConstant: 0
+    ConstantValue: 7
+    Variable: {fileID: 11400000, guid: 70cf0d8e420e4734ea10ecb47239c492, type: 2}
+  LookAngle: 360
+  lookFor: 0
+  ObstacleLayer:
+    UseConstant: 1
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 1
+    Variable: {fileID: 0}
+  AssignTarget: 0
+  MoveToTarget: 0
+  RemoveTarget: 0
+  UnityTag: 
+  GameObjectName: 
+  transform: {fileID: 0}
+  gameObject: {fileID: 0}
+  tags: []
+  zoneType: 0
+  ZoneID: 0
+  ZoneModeAbility: -1
+  debugColor: {r: 1, g: 0.44479162, b: 0, a: 0.11372549}

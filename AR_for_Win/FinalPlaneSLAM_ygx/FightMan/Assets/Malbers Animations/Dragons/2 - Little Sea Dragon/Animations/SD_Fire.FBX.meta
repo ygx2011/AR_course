@@ -1,0 +1,1008 @@
+fileFormatVersion: 2
+guid: 225b6691dd2545a47b2e8f75c8f54a26
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ' Footsteps'
+    100002: ' HeadNub'
+    100004: ' JawNub'
+    100006: ' L Finger0Nub'
+    100008: ' L Toe0'
+    100010: ' L Toe0Nub'
+    100012: ' R Finger0Nub'
+    100014: ' R Toe0'
+    100016: ' R Toe0Nub'
+    100018: ' TailNub'
+    100020: CG
+    100022: CG WingBone1LNub
+    100024: CG WingBone1RNub
+    100026: CG WingBone2LNub
+    100028: CG WingBone2RNub
+    100030: CG WingBoneLNub
+    100032: CG WingBoneRNub
+    100034: Drago03
+    100036: Eyes03
+    100038: Head
+    100040: Jaw
+    100042: L Calf
+    100044: L Clavicle
+    100046: L Finger0
+    100048: L Foot
+    100050: L Forearm
+    100052: L Hand
+    100054: L HorseLink
+    100056: L Thigh
+    100058: L UpperArm
+    100060: Neck
+    100062: Neck1
+    100064: Neck2
+    100066: Pelvis
+    100068: R Calf
+    100070: R Clavicle
+    100072: R Finger0
+    100074: R Foot
+    100076: R Forearm
+    100078: R Hand
+    100080: R HorseLink
+    100082: R Thigh
+    100084: R UpperArm
+    100086: Spine
+    100088: Spine1
+    100090: Tail
+    100092: Tail1
+    100094: Tail2
+    100096: //RootNode
+    100098: WingBone1L
+    100100: WingBone1L02
+    100102: WingBone1L03
+    100104: WingBone1R
+    100106: WingBone1R02
+    100108: WingBone1R03
+    100110: WingBone2L
+    100112: WingBone2L02
+    100114: WingBone2L03
+    100116: WingBone2R
+    100118: WingBone2R02
+    100120: WingBone2R03
+    100122: WingBoneL
+    100124: WingBoneR
+    100126: EarL
+    100128: EarR
+    100130: Neck3
+    100132: SeaDragonBodY
+    400000: ' Footsteps'
+    400002: ' HeadNub'
+    400004: ' JawNub'
+    400006: ' L Finger0Nub'
+    400008: ' L Toe0'
+    400010: ' L Toe0Nub'
+    400012: ' R Finger0Nub'
+    400014: ' R Toe0'
+    400016: ' R Toe0Nub'
+    400018: ' TailNub'
+    400020: CG
+    400022: CG WingBone1LNub
+    400024: CG WingBone1RNub
+    400026: CG WingBone2LNub
+    400028: CG WingBone2RNub
+    400030: CG WingBoneLNub
+    400032: CG WingBoneRNub
+    400034: Drago03
+    400036: Eyes03
+    400038: Head
+    400040: Jaw
+    400042: L Calf
+    400044: L Clavicle
+    400046: L Finger0
+    400048: L Foot
+    400050: L Forearm
+    400052: L Hand
+    400054: L HorseLink
+    400056: L Thigh
+    400058: L UpperArm
+    400060: Neck
+    400062: Neck1
+    400064: Neck2
+    400066: Pelvis
+    400068: R Calf
+    400070: R Clavicle
+    400072: R Finger0
+    400074: R Foot
+    400076: R Forearm
+    400078: R Hand
+    400080: R HorseLink
+    400082: R Thigh
+    400084: R UpperArm
+    400086: Spine
+    400088: Spine1
+    400090: Tail
+    400092: Tail1
+    400094: Tail2
+    400096: //RootNode
+    400098: WingBone1L
+    400100: WingBone1L02
+    400102: WingBone1L03
+    400104: WingBone1R
+    400106: WingBone1R02
+    400108: WingBone1R03
+    400110: WingBone2L
+    400112: WingBone2L02
+    400114: WingBone2L03
+    400116: WingBone2R
+    400118: WingBone2R02
+    400120: WingBone2R03
+    400122: WingBoneL
+    400124: WingBoneR
+    400126: EarL
+    400128: EarR
+    400130: Neck3
+    400132: SeaDragonBodY
+    2300000: Eyes03
+    3300000: Eyes03
+    4300000: Drago03
+    4300002: Eyes03
+    4300004: SeaDragonBodY
+    7400000: SBreath Fire Start Mask
+    7400002: SBreath Fire Loop Mask
+    7400004: SBreath Fire End Mask
+    7400006: SBreath Fire Start
+    7400008: SBreath Fire Loop
+    7400010: SBreath Fire End
+    9500000: //RootNode
+    13700000: Drago03
+    13700002: SeaDragonBodY
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SBreath Fire Start Mask
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CG
+        weight: 0
+      - path: CG/Pelvis
+        weight: 0
+      - path: CG/Pelvis/Spine
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink/L Foot
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink/R Foot
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L
+          Finger0
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/Jaw
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R
+          Finger0
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02/WingBone1L03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02/WingBone2L03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02/WingBone1R03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02/WingBone2R03
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail/Tail1
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail/Tail1/Tail2
+        weight: 0
+      - path: SeaDragonBodY
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SBreath Fire Loop Mask
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CG
+        weight: 0
+      - path: CG/Pelvis
+        weight: 0
+      - path: CG/Pelvis/Spine
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink/L Foot
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink/R Foot
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L
+          Finger0
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/Jaw
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R
+          Finger0
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02/WingBone1L03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02/WingBone2L03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02/WingBone1R03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02/WingBone2R03
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail/Tail1
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail/Tail1/Tail2
+        weight: 0
+      - path: SeaDragonBodY
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SBreath Fire End Mask
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CG
+        weight: 0
+      - path: CG/Pelvis
+        weight: 0
+      - path: CG/Pelvis/Spine
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink
+        weight: 0
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink/L Foot
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink
+        weight: 0
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink/R Foot
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L
+          Finger0
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/Jaw
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R
+          Finger0
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02/WingBone1L03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02/WingBone2L03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02/WingBone1R03
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02
+        weight: 0
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02/WingBone2R03
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail/Tail1
+        weight: 0
+      - path: CG/Pelvis/Spine/Tail/Tail1/Tail2
+        weight: 0
+      - path: SeaDragonBodY
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SBreath Fire Start
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 6
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CG
+        weight: 1
+      - path: CG/Pelvis
+        weight: 1
+      - path: CG/Pelvis/Spine
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink/L Foot
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink/R Foot
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L
+          Finger0
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/Jaw
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R
+          Finger0
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02/WingBone1L03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02/WingBone2L03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02/WingBone1R03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02/WingBone2R03
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail/Tail1
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail/Tail1/Tail2
+        weight: 1
+      - path: SeaDragonBodY
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SBreath Fire Loop
+      takeName: Take 001
+      firstFrame: 6
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CG
+        weight: 1
+      - path: CG/Pelvis
+        weight: 1
+      - path: CG/Pelvis/Spine
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink/L Foot
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink/R Foot
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L
+          Finger0
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/Jaw
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R
+          Finger0
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02/WingBone1L03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02/WingBone2L03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02/WingBone1R03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02/WingBone2R03
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail/Tail1
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail/Tail1/Tail2
+        weight: 1
+      - path: SeaDragonBodY
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SBreath Fire End
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CG
+        weight: 1
+      - path: CG/Pelvis
+        weight: 1
+      - path: CG/Pelvis/Spine
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink
+        weight: 1
+      - path: CG/Pelvis/Spine/L Thigh/L Calf/L HorseLink/L Foot
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink
+        weight: 1
+      - path: CG/Pelvis/Spine/R Thigh/R Calf/R HorseLink/R Foot
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L
+          Finger0
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/EarR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/Neck1/Neck2/Neck3/Head/Jaw
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R
+          Finger0
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone1L/WingBone1L02/WingBone1L03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneL/WingBone2L/WingBone2L02/WingBone2L03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone1R/WingBone1R02/WingBone1R03
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02
+        weight: 1
+      - path: CG/Pelvis/Spine/Spine1/WingBoneR/WingBone2R/WingBone2R02/WingBone2R03
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail/Tail1
+        weight: 1
+      - path: CG/Pelvis/Spine/Tail/Tail1/Tail2
+        weight: 1
+      - path: SeaDragonBodY
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CG
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a58c8e88239890040a2320418c127c95,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

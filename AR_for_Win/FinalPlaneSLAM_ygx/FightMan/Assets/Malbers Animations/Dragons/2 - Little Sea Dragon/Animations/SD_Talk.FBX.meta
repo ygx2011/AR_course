@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 8640dbf022fbc6741b59e9054b2d116b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ' Footsteps'
+    100002: ' HeadNub'
+    100004: ' JawNub'
+    100006: ' L Finger0Nub'
+    100008: ' L Toe0'
+    100010: ' L Toe0Nub'
+    100012: ' R Finger0Nub'
+    100014: ' R Toe0'
+    100016: ' R Toe0Nub'
+    100018: ' TailNub'
+    100020: CG
+    100022: CG Ponytail1Nub
+    100024: CG Ponytail2Nub
+    100026: CG WingBone1LNub
+    100028: CG WingBone1RNub
+    100030: CG WingBone2LNub
+    100032: CG WingBone2RNub
+    100034: CG WingBoneLNub
+    100036: CG WingBoneRNub
+    100038: Drago03
+    100040: Ear L
+    100042: Ear R
+    100044: Eyes03
+    100046: Head
+    100048: Jaw
+    100050: L Calf
+    100052: L Clavicle
+    100054: L Finger0
+    100056: L Foot
+    100058: L Forearm
+    100060: L Hand
+    100062: L HorseLink
+    100064: L Thigh
+    100066: L UpperArm
+    100068: Neck
+    100070: Neck1
+    100072: Neck2
+    100074: Particle View 001
+    100076: Pelvis
+    100078: R Calf
+    100080: R Clavicle
+    100082: R Finger0
+    100084: R Foot
+    100086: R Forearm
+    100088: R Hand
+    100090: R HorseLink
+    100092: R Thigh
+    100094: R UpperArm
+    100096: Spine
+    100098: Spine1
+    100100: Tail
+    100102: Tail1
+    100104: Tail2
+    100106: //RootNode
+    100108: WingBone1L
+    100110: WingBone1L02
+    100112: WingBone1L03
+    100114: WingBone1R
+    100116: WingBone1R02
+    100118: WingBone1R03
+    100120: WingBone2L
+    100122: WingBone2L02
+    100124: WingBone2L03
+    100126: WingBone2R
+    100128: WingBone2R02
+    100130: WingBone2R03
+    100132: WingBoneL
+    100134: WingBoneR
+    100136: EarL
+    100138: EarR
+    100140: Eyes
+    100142: Neck3
+    100144: SeaDragonBodY
+    400000: ' Footsteps'
+    400002: ' HeadNub'
+    400004: ' JawNub'
+    400006: ' L Finger0Nub'
+    400008: ' L Toe0'
+    400010: ' L Toe0Nub'
+    400012: ' R Finger0Nub'
+    400014: ' R Toe0'
+    400016: ' R Toe0Nub'
+    400018: ' TailNub'
+    400020: CG
+    400022: CG Ponytail1Nub
+    400024: CG Ponytail2Nub
+    400026: CG WingBone1LNub
+    400028: CG WingBone1RNub
+    400030: CG WingBone2LNub
+    400032: CG WingBone2RNub
+    400034: CG WingBoneLNub
+    400036: CG WingBoneRNub
+    400038: Drago03
+    400040: Ear L
+    400042: Ear R
+    400044: Eyes03
+    400046: Head
+    400048: Jaw
+    400050: L Calf
+    400052: L Clavicle
+    400054: L Finger0
+    400056: L Foot
+    400058: L Forearm
+    400060: L Hand
+    400062: L HorseLink
+    400064: L Thigh
+    400066: L UpperArm
+    400068: Neck
+    400070: Neck1
+    400072: Neck2
+    400074: Particle View 001
+    400076: Pelvis
+    400078: R Calf
+    400080: R Clavicle
+    400082: R Finger0
+    400084: R Foot
+    400086: R Forearm
+    400088: R Hand
+    400090: R HorseLink
+    400092: R Thigh
+    400094: R UpperArm
+    400096: Spine
+    400098: Spine1
+    400100: Tail
+    400102: Tail1
+    400104: Tail2
+    400106: //RootNode
+    400108: WingBone1L
+    400110: WingBone1L02
+    400112: WingBone1L03
+    400114: WingBone1R
+    400116: WingBone1R02
+    400118: WingBone1R03
+    400120: WingBone2L
+    400122: WingBone2L02
+    400124: WingBone2L03
+    400126: WingBone2R
+    400128: WingBone2R02
+    400130: WingBone2R03
+    400132: WingBoneL
+    400134: WingBoneR
+    400136: EarL
+    400138: EarR
+    400140: Eyes
+    400142: Neck3
+    400144: SeaDragonBodY
+    2300000: Eyes03
+    2300002: Eyes
+    3300000: Eyes03
+    3300002: Eyes
+    4300000: Drago03
+    4300002: Eyes03
+    4300004: Eyes
+    4300006: SeaDragonBodY
+    7400000: SYes
+    7400002: SNo
+    7400004: Take 001
+    9500000: //RootNode
+    13700000: Drago03
+    13700002: SeaDragonBodY
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: SNo
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SYes
+      takeName: Take 001
+      firstFrame: 53
+      lastFrame: 103
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CG
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a58c8e88239890040a2320418c127c95,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

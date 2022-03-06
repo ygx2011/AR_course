@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 1b72df35f43432243b9bd400c4441147
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CG
+    100002: EarL
+    100004: EarR
+    100006: Eyes
+    100008: Head
+    100010: Jaw
+    100012: L Calf
+    100014: L Clavicle
+    100016: L Finger0
+    100018: L Foot
+    100020: L Forearm
+    100022: L Hand
+    100024: L HorseLink
+    100026: L Thigh
+    100028: L UpperArm
+    100030: Neck
+    100032: Neck1
+    100034: Neck2
+    100036: Neck3
+    100038: Pelvis
+    100040: R Calf
+    100042: R Clavicle
+    100044: R Finger0
+    100046: R Foot
+    100048: R Forearm
+    100050: R Hand
+    100052: R HorseLink
+    100054: R Thigh
+    100056: R UpperArm
+    100058: //RootNode
+    100060: SeaDragoPolyArt
+    100062: Spine
+    100064: Spine1
+    100066: Tail
+    100068: Tail1
+    100070: Tail2
+    100072: WingBone1L
+    100074: WingBone1L02
+    100076: WingBone1L03
+    100078: WingBone1R
+    100080: WingBone1R02
+    100082: WingBone1R03
+    100084: WingBone2L
+    100086: WingBone2L02
+    100088: WingBone2L03
+    100090: WingBone2R
+    100092: WingBone2R02
+    100094: WingBone2R03
+    100096: WingBoneL
+    100098: WingBoneR
+    400000: CG
+    400002: EarL
+    400004: EarR
+    400006: Eyes
+    400008: Head
+    400010: Jaw
+    400012: L Calf
+    400014: L Clavicle
+    400016: L Finger0
+    400018: L Foot
+    400020: L Forearm
+    400022: L Hand
+    400024: L HorseLink
+    400026: L Thigh
+    400028: L UpperArm
+    400030: Neck
+    400032: Neck1
+    400034: Neck2
+    400036: Neck3
+    400038: Pelvis
+    400040: R Calf
+    400042: R Clavicle
+    400044: R Finger0
+    400046: R Foot
+    400048: R Forearm
+    400050: R Hand
+    400052: R HorseLink
+    400054: R Thigh
+    400056: R UpperArm
+    400058: //RootNode
+    400060: SeaDragoPolyArt
+    400062: Spine
+    400064: Spine1
+    400066: Tail
+    400068: Tail1
+    400070: Tail2
+    400072: WingBone1L
+    400074: WingBone1L02
+    400076: WingBone1L03
+    400078: WingBone1R
+    400080: WingBone1R02
+    400082: WingBone1R03
+    400084: WingBone2L
+    400086: WingBone2L02
+    400088: WingBone2L03
+    400090: WingBone2R
+    400092: WingBone2R02
+    400094: WingBone2R03
+    400096: WingBoneL
+    400098: WingBoneR
+    2300000: Eyes
+    3300000: Eyes
+    4300000: Eyes
+    4300002: SeaDragoPolyArt
+    9500000: //RootNode
+    13700000: SeaDragoPolyArt
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 0
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CG
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

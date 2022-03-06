@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: f49356295a1e2be4fb0fe9ef15788fdf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Egg
+    100002: EggRoot
+    100004: //RootNode
+    100006: Shell01
+    100008: Shell02
+    100010: Shell03
+    100012: Shell04
+    100014: Shell05
+    100016: Shell06
+    100018: Shell07
+    100020: Shell08
+    100022: Shell09
+    100024: Shell10
+    100026: Shell11
+    100028: Shell12
+    100030: Shell13
+    100032: Shell14
+    100034: Shell15
+    100036: Shell16
+    100038: Shell17
+    400000: Egg
+    400002: EggRoot
+    400004: //RootNode
+    400006: Shell01
+    400008: Shell02
+    400010: Shell03
+    400012: Shell04
+    400014: Shell05
+    400016: Shell06
+    400018: Shell07
+    400020: Shell08
+    400022: Shell09
+    400024: Shell10
+    400026: Shell11
+    400028: Shell12
+    400030: Shell13
+    400032: Shell14
+    400034: Shell15
+    400036: Shell16
+    400038: Shell17
+    4300000: Egg
+    7400000: Egg
+    7400002: Egg Cracking
+    7400004: Egg Exit
+    9500000: //RootNode
+    13700000: Egg
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Egg
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 0.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Egg
+        weight: 1
+      - path: EggRoot
+        weight: 1
+      - path: EggRoot/Shell01
+        weight: 1
+      - path: EggRoot/Shell02
+        weight: 1
+      - path: EggRoot/Shell03
+        weight: 1
+      - path: EggRoot/Shell04
+        weight: 1
+      - path: EggRoot/Shell05
+        weight: 1
+      - path: EggRoot/Shell06
+        weight: 1
+      - path: EggRoot/Shell07
+        weight: 1
+      - path: EggRoot/Shell08
+        weight: 1
+      - path: EggRoot/Shell09
+        weight: 1
+      - path: EggRoot/Shell10
+        weight: 1
+      - path: EggRoot/Shell11
+        weight: 1
+      - path: EggRoot/Shell12
+        weight: 1
+      - path: EggRoot/Shell13
+        weight: 1
+      - path: EggRoot/Shell14
+        weight: 1
+      - path: EggRoot/Shell15
+        weight: 1
+      - path: EggRoot/Shell16
+        weight: 1
+      - path: EggRoot/Shell17
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Egg Cracking
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Egg
+        weight: 1
+      - path: EggRoot
+        weight: 1
+      - path: EggRoot/Shell01
+        weight: 1
+      - path: EggRoot/Shell02
+        weight: 1
+      - path: EggRoot/Shell03
+        weight: 1
+      - path: EggRoot/Shell04
+        weight: 1
+      - path: EggRoot/Shell05
+        weight: 1
+      - path: EggRoot/Shell06
+        weight: 1
+      - path: EggRoot/Shell07
+        weight: 1
+      - path: EggRoot/Shell08
+        weight: 1
+      - path: EggRoot/Shell09
+        weight: 1
+      - path: EggRoot/Shell10
+        weight: 1
+      - path: EggRoot/Shell11
+        weight: 1
+      - path: EggRoot/Shell12
+        weight: 1
+      - path: EggRoot/Shell13
+        weight: 1
+      - path: EggRoot/Shell14
+        weight: 1
+      - path: EggRoot/Shell15
+        weight: 1
+      - path: EggRoot/Shell16
+        weight: 1
+      - path: EggRoot/Shell17
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Egg Exit
+      takeName: Take 001
+      firstFrame: 74
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Egg
+        weight: 1
+      - path: EggRoot
+        weight: 1
+      - path: EggRoot/Shell01
+        weight: 1
+      - path: EggRoot/Shell02
+        weight: 1
+      - path: EggRoot/Shell03
+        weight: 1
+      - path: EggRoot/Shell04
+        weight: 1
+      - path: EggRoot/Shell05
+        weight: 1
+      - path: EggRoot/Shell06
+        weight: 1
+      - path: EggRoot/Shell07
+        weight: 1
+      - path: EggRoot/Shell08
+        weight: 1
+      - path: EggRoot/Shell09
+        weight: 1
+      - path: EggRoot/Shell10
+        weight: 1
+      - path: EggRoot/Shell11
+        weight: 1
+      - path: EggRoot/Shell12
+        weight: 1
+      - path: EggRoot/Shell13
+        weight: 1
+      - path: EggRoot/Shell14
+        weight: 1
+      - path: EggRoot/Shell15
+        weight: 1
+      - path: EggRoot/Shell16
+        weight: 1
+      - path: EggRoot/Shell17
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: EggRoot
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

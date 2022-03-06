@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8236597717375731461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a307bf2814ef6d742b57b5b280dd5d46, type: 3}
+  m_Name: D_Am I Hurt
+  m_EditorClassIdentifier: 
+  Description: Means I'm Playing any Damage Mode animation
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  checkOn: 0
+  ModeState: 1
+  ModeID: {fileID: 11400000, guid: 4dc5ca673dc60d346a62529c8a9bd8ff, type: 2}
+  Ability:
+    UseConstant: 1
+    ConstantValue: -1
+    Variable: {fileID: 0}
+--- !u!114 &-3460087643842392570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b00a63bfc37e3794ea3b0af5a3c6381e, type: 3}
+  m_Name: D_Look for Player
+  m_EditorClassIdentifier: 
+  Description: 'Look For Player ANimal
+
+'
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  LookRange:
+    UseConstant: 0
+    ConstantValue: 10
+    Variable: {fileID: 11400000, guid: 70cf0d8e420e4734ea10ecb47239c492, type: 2}
+  LookAngle: 120
+  lookFor: 0
+  ObstacleLayer:
+    UseConstant: 1
+    ConstantValue:
+      serializedVersion: 2
+      m_Bits: 1
+    Variable: {fileID: 0}
+  AssignTarget: 1
+  MoveToTarget: 1
+  RemoveTarget: 0
+  UnityTag: 
+  GameObjectName: 
+  transform: {fileID: 0}
+  gameObject: {fileID: 0}
+  tags: []
+  zoneType: 0
+  ZoneID: 0
+  ZoneModeAbility: -1
+  debugColor: {r: 0, g: 0.41136098, b: 1, a: 0.1764706}
+--- !u!114 &-1555809851577581182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9176d65901bdc7c4bbcc36cf5d310741, type: 3}
+  m_Name: T_Stance Default
+  m_EditorClassIdentifier: 
+  Description: Type Description Here
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  affect: 0
+  stance: {fileID: 11400000, guid: 87ae38bfe93fc3f449ecd25863e2a6fe, type: 2}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: Drg 01 Patrol
+  m_EditorClassIdentifier: 
+  ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  tasks:
+  - {fileID: 1365128575194046696}
+  - {fileID: 820923981342530357}
+  - {fileID: -1555809851577581182}
+  transitions:
+  - decision: {fileID: -3460087643842392570}
+    trueState: {fileID: 11400000, guid: 35bf5422ac7dea04cadd82c78deedb91, type: 2}
+    falseState: {fileID: 0}
+  - decision: {fileID: -8236597717375731461}
+    trueState: {fileID: 11400000, guid: 24a42858b6feda54f8c0af85691e31d9, type: 2}
+    falseState: {fileID: 0}
+  GizmoStateColor: {r: 0.057249308, g: 1, b: 0, a: 1}
+  CreateTaskAsset: 1
+  CreateDecisionAsset: 1
+--- !u!114 &820923981342530357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d55f5af15654a1848a5d62c35156dfe9, type: 3}
+  m_Name: T_Speed Walk
+  m_EditorClassIdentifier: 
+  Description: Change the Speed to Walk
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  affect: 0
+  SpeedSet: Ground
+  SpeedIndex:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+--- !u!114 &1365128575194046696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f52ecadff7d8914eae97320934863d1, type: 3}
+  m_Name: T_Patrol
+  m_EditorClassIdentifier: 
+  Description: Simple Patrol Logic using the Default AiAnimal Control Movement System
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  patrolType: 0
+  RuntimeSet: {fileID: 0}
+  rtype: 1
+  RTIndex:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  RTName:
+    UseConstant: 1
+    ConstantValue: 
+    Variable: {fileID: 0}

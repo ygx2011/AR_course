@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9214473321541433175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bfcc53f890e3864b941cd0e3c01c970, type: 3}
+  m_Name: T_FireBall
+  m_EditorClassIdentifier: 
+  Description: Plays a mode on the Animal(Self or the Target)
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  modeID: {fileID: 11400000, guid: 36ebf5306b7174949934aa62255781b1, type: 2}
+  AbilityID:
+    UseConstant: 1
+    ConstantValue: 1
+    Variable: {fileID: 0}
+  ModePower:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  near: 0
+  affect: 0
+  Play: 1
+  CoolDown:
+    UseConstant: 1
+    ConstantValue: 3
+    Variable: {fileID: 0}
+  ModeAngle: 180
+  lookAtAlign: 1
+  alignTime: 0.1
+--- !u!114 &-5353837772157969861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20de7ec569e280e4dbc951b31fe6319e, type: 3}
+  m_Name: T_Keep Distance
+  m_EditorClassIdentifier: 
+  Description: Keep a Distance to the Current Target
+  MessageID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  WaitForPreviousTask: 0
+  task: 7
+  distance:
+    UseConstant: 1
+    ConstantValue: 7
+    Variable: {fileID: 0}
+  distanceThreshold:
+    UseConstant: 1
+    ConstantValue: 1.5
+    Variable: {fileID: 0}
+  stoppingDistance:
+    UseConstant: 1
+    ConstantValue: 0.5
+    Variable: {fileID: 0}
+  direction: 0
+  arcsCount: 12
+  UpdateFleeMovingTarget: 1
+  LookAtTarget: 1
+  Interact: 1
+  interval: 0.2
+  debugColor: {r: 1, g: 0.74543095, b: 0, a: 0.25}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e33e187dc72d4a48aaede99913c6393, type: 3}
+  m_Name: Drg 03 Attackwith FireBall
+  m_EditorClassIdentifier: 
+  ID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  tasks:
+  - {fileID: -5353837772157969861}
+  - {fileID: 2460284179467418036, guid: 35bf5422ac7dea04cadd82c78deedb91, type: 2}
+  - {fileID: -9214473321541433175}
+  transitions:
+  - decision: {fileID: 7521351367218256040, guid: 35bf5422ac7dea04cadd82c78deedb91,
+      type: 2}
+    trueState: {fileID: 0}
+    falseState: {fileID: 11400000, guid: 7c78d1cbd0889d84d82402826dc35d4f, type: 2}
+  - decision: {fileID: 4143440088249727588}
+    trueState: {fileID: 11400000, guid: 7c78d1cbd0889d84d82402826dc35d4f, type: 2}
+    falseState: {fileID: 0}
+  GizmoStateColor: {r: 1, g: 0, b: 0.99701786, a: 1}
+  CreateTaskAsset: 1
+  CreateDecisionAsset: 1
+--- !u!114 &4143440088249727588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13c3ae5af063c546a807790208b81bc, type: 3}
+  m_Name: D_Is Target Death
+  m_EditorClassIdentifier: 
+  Description: The Target died
+  DecisionID:
+    UseConstant: 1
+    ConstantValue: 0
+    Variable: {fileID: 0}
+  send: 0
+  interval:
+    UseConstant: 1
+    ConstantValue: 0.2
+    Variable: {fileID: 0}
+  check: 1
+  when: 1
+  StateID: {fileID: 11400000, guid: adfa24f62d6db4d40a1d837f4ec1a6e9, type: 2}

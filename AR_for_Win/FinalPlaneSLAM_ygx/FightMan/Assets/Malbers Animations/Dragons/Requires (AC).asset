@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fcb0528820550499d051030855ca6d, type: 3}
+  m_Name: Requires (AC)
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 6fed46b7047bdf94eb0425b756394e5b, type: 3}
+  title: Requires Animal Controller 1.3b+
+  sections:
+  - heading: Integration with Animal Controller
+    text: You will find the Asset fully integrated with the Malbers Animal Controller(AC)
+      in this unitypackage
+    linkText: 
+    url: 
+    reference: {fileID: 0}
+  - heading: If you are using the Animal Controller, please download the asset first
+      before unpacking the Integration!
+    text: 
+    linkText: 
+    url: 
+    reference: {fileID: 0}
+  - heading: 
+    text: 
+    linkText: 
+    url: 
+    reference: {fileID: 102900000, guid: aa42bcf362d43a544b70a045e41a5fbe, type: 3}
+  - heading: ' '
+    text: 'Download (AC) from the AssetStore here:'
+    linkText: "\u25BAANIMAL CONTROLLER\u25C4"
+    url: https://assetstore.unity.com/packages/slug/148877?aid=1100lHT6
+    reference: {fileID: 0}
+  - heading: 
+    text: ' '
+    linkText: Quick Guide to use the files
+    url: https://malbersanimations.gitbook.io/animal-controller/quickstart/guide-to-use-malbers-unity-assets-with-ac
+    reference: {fileID: 0}
+  - heading: 
+    text: ' '
+    linkText: 
+    url: 
+    reference: {fileID: 0}
+  - heading: If you do not want or need the Animal Controller, you can safely remove
+      the package
+    text: 
+    linkText: 
+    url: 
+    reference: {fileID: 0}
+  packages: []

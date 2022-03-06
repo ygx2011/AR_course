@@ -1,0 +1,31 @@
+﻿生成启动时间为 2022/2/26 14:31:57。
+     1>项目“E:\unity3d\FinalPlaneSLAM_ygx\orbslam_depthar\orbslam_depthar\orbslam_depthar.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“x64\Release\orbslam_depthar.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         e:\vs2010\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\unity3d\FinalPlaneSLAM_ygx\orbslam_depthar\x64\Release\orbslam_depthar.dll" /INCREMENTAL:NO /NOLOGO libamd.lib libblas.lib libcamd.lib libcblas.lib libccolamd.lib libcerbla.lib libcholmod.lib libcolamd.lib libgoto_CHOLMOD.lib liblapack.lib libmetis_CHOLMOD.lib MapReduceMPI.lib mpistubs.lib QVTK.lib vtkalglib.lib vtkCharts.lib vtkCommon.lib vtkDICOMParser.lib vtkexoIIc.lib vtkexpat.lib vtkFiltering.lib vtkfreetype.lib vtkftgl.lib vtkGenericFiltering.lib vtkGeovis.lib vtkGraphics.lib vtkhdf5.lib vtkHybrid.lib vtkImaging.lib vtkInfovis.lib vtkIO.lib vtkjpeg.lib vtklibxml2.lib vtkmetaio.lib vtkNetCDF.lib vtkNetCDF_cxx.lib vtkpng.lib vtkproj4.lib vtkRendering.lib opengl32.lib vtksqlite.lib vtksys.lib vtktiff.lib vtkverdict.lib vtkViews.lib vtkVolumeRendering.lib vtkWidgets.lib vtkzlib.lib "libboost_date_time-vc100-mt-1_49.lib" "libboost_thread-vc100-mt-1_49.lib" opencv_calib3d243.lib opencv_contrib243.lib opencv_core243.lib opencv_features2d243.lib opencv_flann243.lib opencv_gpu243.lib opencv_highgui243.lib opencv_imgproc243.lib opencv_legacy243.lib opencv_ml243.lib opencv_nonfree243.lib opencv_objdetect243.lib opencv_photo243.lib opencv_stitching243.lib opencv_ts243.lib opencv_video243.lib opencv_videostab243.lib DBoW2.lib g2o_core.lib g2o_solver_dense.lib g2o_stuff.lib g2o_types_slam3d.lib g2o_types_sba.lib g2o_types_sim3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\orbslam_depthar.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\unity3d\FinalPlaneSLAM_ygx\orbslam_depthar\x64\Release\orbslam_depthar.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\unity3d\FinalPlaneSLAM_ygx\orbslam_depthar\x64\Release\orbslam_depthar.lib" /MACHINE:X64 /DLL x64\Release\Converter.obj
+         x64\Release\Frame.obj
+         x64\Release\FramePublisher.obj
+         x64\Release\Initializer.obj
+         x64\Release\KeyFrame.obj
+         x64\Release\KeyFrameDatabase.obj
+         x64\Release\LocalMapping.obj
+         x64\Release\LoopClosing.obj
+         x64\Release\main.obj
+         x64\Release\Map.obj
+         x64\Release\MapPoint.obj
+         x64\Release\MapPublisher.obj
+         x64\Release\Optimizer.obj
+         x64\Release\ORBextractor.obj
+         x64\Release\ORBmatcher.obj
+         x64\Release\PnPsolver.obj
+         x64\Release\Sim3Solver.obj
+         x64\Release\Tracking.obj
+     1>DBoW2.lib(Random.obj) : fatal error LNK1112: 模块计算机类型“X86”与目标计算机类型“x64”冲突
+     1>已完成生成项目“E:\unity3d\FinalPlaneSLAM_ygx\orbslam_depthar\orbslam_depthar\orbslam_depthar.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:34.41

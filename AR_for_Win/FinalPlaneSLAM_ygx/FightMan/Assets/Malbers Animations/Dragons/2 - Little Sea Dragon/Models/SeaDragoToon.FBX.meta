@@ -1,0 +1,247 @@
+fileFormatVersion: 2
+guid: a58c8e88239890040a2320418c127c95
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CG
+    100002: Drago HD001
+    100004: DragonEyes
+    100006: Head
+    100008: Jaw
+    100010: L Calf
+    100012: L Clavicle
+    100014: L Finger0
+    100016: L Foot
+    100018: L Forearm
+    100020: L Hand
+    100022: L HorseLink
+    100024: L Thigh
+    100026: L UpperArm
+    100028: Neck
+    100030: Neck1
+    100032: Neck2
+    100034: Pelvis
+    100036: R Calf
+    100038: R Clavicle
+    100040: R Finger0
+    100042: R Foot
+    100044: R Forearm
+    100046: R Hand
+    100048: R HorseLink
+    100050: R Thigh
+    100052: R UpperArm
+    100054: Spine
+    100056: Spine1
+    100058: Tail
+    100060: Tail1
+    100062: Tail2
+    100064: TigerDrago
+    100066: //RootNode
+    100068: WingBone
+    100070: WingBone1
+    100072: WingBone102
+    100074: WingBone103
+    100076: WingBone1Opp
+    100078: WingBone1Opp02
+    100080: WingBone1Opp03
+    100082: WingBone2
+    100084: WingBone202
+    100086: WingBone203
+    100088: WingBone2Opp
+    100090: WingBone2Opp02
+    100092: WingBone2Opp03
+    100094: WingBoneOpp
+    100096: WingBone1L
+    100098: WingBone1L02
+    100100: WingBone1L03
+    100102: WingBone1R
+    100104: WingBone1R02
+    100106: WingBone1R03
+    100108: WingBone2L
+    100110: WingBone2L02
+    100112: WingBone2L03
+    100114: WingBone2R
+    100116: WingBone2R02
+    100118: WingBone2R03
+    100120: WingBoneL
+    100122: WingBoneR
+    100124: Box001
+    100126: Box002
+    100128: EarL
+    100130: EarR
+    100132: Eyes
+    100134: Neck3
+    100136: SeaDragonBodY
+    400000: CG
+    400002: Drago HD001
+    400004: DragonEyes
+    400006: Head
+    400008: Jaw
+    400010: L Calf
+    400012: L Clavicle
+    400014: L Finger0
+    400016: L Foot
+    400018: L Forearm
+    400020: L Hand
+    400022: L HorseLink
+    400024: L Thigh
+    400026: L UpperArm
+    400028: Neck
+    400030: Neck1
+    400032: Neck2
+    400034: Pelvis
+    400036: R Calf
+    400038: R Clavicle
+    400040: R Finger0
+    400042: R Foot
+    400044: R Forearm
+    400046: R Hand
+    400048: R HorseLink
+    400050: R Thigh
+    400052: R UpperArm
+    400054: Spine
+    400056: Spine1
+    400058: Tail
+    400060: Tail1
+    400062: Tail2
+    400064: TigerDrago
+    400066: //RootNode
+    400068: WingBone
+    400070: WingBone1
+    400072: WingBone102
+    400074: WingBone103
+    400076: WingBone1Opp
+    400078: WingBone1Opp02
+    400080: WingBone1Opp03
+    400082: WingBone2
+    400084: WingBone202
+    400086: WingBone203
+    400088: WingBone2Opp
+    400090: WingBone2Opp02
+    400092: WingBone2Opp03
+    400094: WingBoneOpp
+    400096: WingBone1L
+    400098: WingBone1L02
+    400100: WingBone1L03
+    400102: WingBone1R
+    400104: WingBone1R02
+    400106: WingBone1R03
+    400108: WingBone2L
+    400110: WingBone2L02
+    400112: WingBone2L03
+    400114: WingBone2R
+    400116: WingBone2R02
+    400118: WingBone2R03
+    400120: WingBoneL
+    400122: WingBoneR
+    400124: Box001
+    400126: Box002
+    400128: EarL
+    400130: EarR
+    400132: Eyes
+    400134: Neck3
+    400136: SeaDragonBodY
+    2300000: DragonEyes
+    2300002: Box001
+    2300004: Box002
+    2300006: Eyes
+    3300000: DragonEyes
+    3300002: Box001
+    3300004: Box002
+    3300006: Eyes
+    4300000: DragonEyes
+    4300002: TigerDrago
+    4300004: Eyes
+    4300006: SeaDragonBodY
+    4300008: Box001
+    4300010: Box002
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: TigerDrago
+    13700002: SeaDragonBodY
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: CG
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
