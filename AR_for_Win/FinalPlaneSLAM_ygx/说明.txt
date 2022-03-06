@@ -14,3 +14,6 @@ Features:
 5. 增加从地图直接初始化slam功能，可以做固定场景的点云保存和AR功能；
 6. unity工程里增加实时阴影渲染；
 7. 开箱即用哈~~~
+
+注意哈：
+vs工程里面orbslam_depthar/lib/Debug/vtk下面的几个文件超60MB了，git上没有上传哈，有需要的可以进QQ群联系我哈~
