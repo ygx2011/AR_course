@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: f03350d298ed484499067e0d04c84a3f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cannon_Base
+    100004: Cannon_Turret
+    100006: Helper_Turret
+    100008: Cannon_Turret_Low
+    100010: Bn_Core
+    100012: Bn_Mid
+    100014: Bn_Tip
+    100016: CannonBase
+    100018: CannonTurret
+    100020: Control_Turret
+    100022: Control_TurretMotion
+    100024: FireTarget
+    100026: Cannon_Collision
+    100028: Control_Base
+    400000: //RootNode
+    400002: Cannon_Base
+    400004: Cannon_Turret
+    400006: Helper_Turret
+    400008: Cannon_Turret_Low
+    400010: Bn_Core
+    400012: Bn_Mid
+    400014: Bn_Tip
+    400016: CannonBase
+    400018: CannonTurret
+    400020: Control_Turret
+    400022: Control_TurretMotion
+    400024: FireTarget
+    400026: Cannon_Collision
+    400028: Control_Base
+    2300000: //RootNode
+    2300002: Cannon_Base
+    2300004: Cannon_Turret
+    2300006: Cannon_Turret_Low
+    2300008: CannonBase
+    2300010: Cannon_Collision
+    3300000: //RootNode
+    3300002: Cannon_Base
+    3300004: Cannon_Turret
+    3300006: Cannon_Turret_Low
+    3300008: CannonBase
+    3300010: Cannon_Collision
+    4300000: Cannon
+    4300002: Cannon_Base
+    4300004: Cannon_Turret
+    4300006: Cannon_Turret_Low
+    4300008: CannonTurret
+    4300010: CannonBase
+    4300012: Cannon_Collision
+    7400000: Fire
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: CannonTurret
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Fire
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: CannonBase
+        weight: 1
+      - path: Control_Turret
+        weight: 1
+      - path: Control_Turret/Control_TurretMotion
+        weight: 1
+      - path: Control_Turret/Control_TurretMotion/Bn_Core
+        weight: 1
+      - path: Control_Turret/Control_TurretMotion/Bn_Mid
+        weight: 1
+      - path: Control_Turret/Control_TurretMotion/Bn_Tip
+        weight: 1
+      - path: Control_Turret/Control_TurretMotion/CannonTurret
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,2 @@
+Assets/Mario64HD/Mesh/BobOmbBattlefieldRedux.max
+Assets/Mario64HD/Textures/CoinShockwave.psd

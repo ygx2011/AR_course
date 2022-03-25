@@ -1,0 +1,12 @@
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\UnityEditor.dll
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\UnityEngine.dll
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\UnityEngine.xml
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\UnityEditor.xml
+F:\Google Drive\SuperMario64HD\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+F:\Google Drive\SuperMario64HD\obj\Debug\UnityVS.SuperMario64HD.CSharp.csprojResolveAssemblyReference.cache
+F:\Google Drive\SuperMario64HD\obj\Debug\Assembly-CSharp.dll
+F:\Google Drive\SuperMario64HD\obj\Debug\Assembly-CSharp.pdb

@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 4915312b126623a438e94c32f467dde7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box001
+    100004: Box002
+    100006: Base
+    100008: BraceBack
+    100010: BraceBottom
+    100012: BraceFront
+    100014: BraceTop
+    100016: Platform
+    100018: Leg_002
+    100020: Leg_003
+    100022: Leg_004
+    100024: Leg_005
+    100026: Leg_006
+    100028: Leg_007
+    100030: Leg_008
+    100032: Leg_01
+    100034: Dummy001
+    100036: Dummy002
+    100038: Bone_BottomSpringLeft
+    100040: Bone_BottomSpringRight
+    100042: Bone_LeftSpringNub
+    100044: Bone_RightSpringNub
+    100046: Bone_TopSpringLeft
+    100048: Bone_TopSpringRight
+    100050: Ctrl_Spring
+    100052: IK Chain001
+    100054: IK Chain002
+    100056: Springer
+    400000: //RootNode
+    400002: Box001
+    400004: Box002
+    400006: Base
+    400008: BraceBack
+    400010: BraceBottom
+    400012: BraceFront
+    400014: BraceTop
+    400016: Platform
+    400018: Leg_002
+    400020: Leg_003
+    400022: Leg_004
+    400024: Leg_005
+    400026: Leg_006
+    400028: Leg_007
+    400030: Leg_008
+    400032: Leg_01
+    400034: Dummy001
+    400036: Dummy002
+    400038: Bone_BottomSpringLeft
+    400040: Bone_BottomSpringRight
+    400042: Bone_LeftSpringNub
+    400044: Bone_RightSpringNub
+    400046: Bone_TopSpringLeft
+    400048: Bone_TopSpringRight
+    400050: Ctrl_Spring
+    400052: IK Chain001
+    400054: IK Chain002
+    400056: Springer
+    2300000: //RootNode
+    2300002: Box001
+    2300004: Box002
+    2300006: Base
+    2300008: BraceBack
+    2300010: BraceBottom
+    2300012: BraceFront
+    2300014: BraceTop
+    2300016: Platform
+    2300018: Leg_002
+    2300020: Leg_003
+    2300022: Leg_004
+    2300024: Leg_005
+    2300026: Leg_006
+    2300028: Leg_007
+    2300030: Leg_008
+    2300032: Leg_01
+    3300000: //RootNode
+    3300002: Box001
+    3300004: Box002
+    3300006: Base
+    3300008: BraceBack
+    3300010: BraceBottom
+    3300012: BraceFront
+    3300014: BraceTop
+    3300016: Platform
+    3300018: Leg_002
+    3300020: Leg_003
+    3300022: Leg_004
+    3300024: Leg_005
+    3300026: Leg_006
+    3300028: Leg_007
+    3300030: Leg_008
+    3300032: Leg_01
+    4300000: Box001
+    4300002: Box002
+    4300004: Base
+    4300006: Platform
+    4300008: BraceBottom
+    4300010: BraceTop
+    4300012: BraceFront
+    4300014: BraceBack
+    4300016: Leg_01
+    4300018: Leg_002
+    4300020: Leg_003
+    4300022: Leg_004
+    4300024: Leg_005
+    4300026: Leg_006
+    4300028: Leg_007
+    4300030: Leg_008
+    4300032: Springer
+    7400000: Spring
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Base
+    13700002: BraceBottom
+    13700004: BraceTop
+    13700006: Leg_002
+    13700008: Leg_003
+    13700010: Leg_004
+    13700012: Leg_005
+    13700014: Leg_006
+    13700016: Leg_007
+    13700018: Leg_008
+    13700020: Leg_01
+    13700022: Platform
+    13700024: Springer
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Spring
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Base
+        weight: 1
+      - path: Bone_BottomSpringLeft
+        weight: 1
+      - path: Bone_BottomSpringLeft/Bone_TopSpringLeft
+        weight: 1
+      - path: Bone_BottomSpringLeft/Bone_TopSpringLeft/Bone_LeftSpringNub
+        weight: 1
+      - path: Bone_BottomSpringRight
+        weight: 1
+      - path: Bone_BottomSpringRight/Bone_TopSpringRight
+        weight: 1
+      - path: Bone_BottomSpringRight/Bone_TopSpringRight/Bone_RightSpringNub
+        weight: 1
+      - path: Ctrl_Spring
+        weight: 1
+      - path: Ctrl_Spring/IK Chain001
+        weight: 1
+      - path: Ctrl_Spring/IK Chain002
+        weight: 1
+      - path: Ctrl_Spring/Platform
+        weight: 1
+      - path: Springer
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

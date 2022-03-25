@@ -1,0 +1,4271 @@
+﻿<?xml version="1.0"?>
+<doc>
+	<assembly>
+		<name>UnityEditor</name>
+	</assembly>
+	<members>
+		<member name="T:UnityEditor.AnimationClipCurveData">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.InitializeOnLoadAttribute">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.RendererModuleUI/RenderMode">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PopupWindowContent">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.path">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MaterialProperty">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SaveType">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PopupWindow">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.type">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.targets">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PopupWindow.Show(UnityEngine.Rect,UnityEditor.PopupWindowContent)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.propertyName">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PopupWindow.Show(UnityEngine.Rect,UnityEditor.PopupWindowContent,UnityEditor.PopupLocationHelper/PopupLocation[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ProjectWindowUtil">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.type">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SearchableEditorWindow">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipCurveData.curve">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.name">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ObjectReferenceKeyframe">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.displayName">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SearchableEditorWindow.OnEnable()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.ObjectReferenceKeyframe.time">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.flags">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SearchableEditorWindow.OnDisable()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.textureDimension">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.ObjectReferenceKeyframe.value">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AvatarPreview/ViewTool">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SceneModeUtility">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.rangeLimits">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorCurveBinding">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CustomPreviewAttribute">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.GetSelectedObjectsOfType(UnityEngine.GameObject[]&,System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.hasMixedValue">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorCurveBinding.path">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ObjectPreview">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.SearchForType(System.Type)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.applyPropertyCallback">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorCurveBinding.propertyName">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ObjectPreview.target">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.SearchBar(System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.colorValue">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.StaticFlagField(System.String,UnityEditor.SerializedProperty,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.Initialize(UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorCurveBinding.isPPtrCurve">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorCurveBinding.type">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.MoveNextTarget()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.SetStaticFlags(UnityEngine.Object[],System.Int32,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.vectorValue">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.ResetTarget()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.GetHashCode()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SceneModeUtility.GetObjects(UnityEngine.Object[],System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.floatValue">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.HasPreviewGUI()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.Equals(System.Object)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CustomPropertyDrawer">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.textureValue">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.GetPreviewTitle()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.FloatCurve(System.String,System.Type,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MaterialProperty.textureScaleAndOffset">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.DecoratorDrawer">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.DecoratorDrawer.attribute">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MaterialProperty.ReadFromMaterialPropertyBlock(UnityEngine.MaterialPropertyBlock)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorCurveBinding.PPtrCurve(System.String,System.Type,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DecoratorDrawer.OnGUI(UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MaterialProperty.WriteToMaterialPropertyBlock(UnityEngine.MaterialPropertyBlock,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AnimationClipSettings">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DecoratorDrawer.GetHeight()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.OnPreviewSettings()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.startTime">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.GUIDrawer">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BaseHierarchySort">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.GetInfoString()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.stopTime">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PropertyDrawer">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.BaseHierarchySort.content">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.DrawPreview(UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectPreview.DrawPreview(UnityEditor.IPreviewable,UnityEngine.Rect,UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PropertyDrawer.attribute">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BaseHierarchySort.Compare(UnityEngine.GameObject,UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.orientationOffsetY">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PropertyDrawer.fieldInfo">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TransformSort">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.level">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TransformSort.content">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEngine.GUIContent)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MaterialEditor">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.cycleOffset">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PropertyDrawer.GetPropertyHeight(UnityEditor.SerializedProperty,UnityEngine.GUIContent)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AlphabeticalSort">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MaterialPropertyDrawer">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopTime">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AlphabeticalSort.content">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlend">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MaterialPropertyDrawer.OnGUI(UnityEngine.Rect,UnityEditor.MaterialProperty,System.String,UnityEditor.MaterialEditor)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AlphabeticalSort.Compare(UnityEngine.GameObject,UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlendOrientation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MaterialPropertyDrawer.GetPropertyHeight(UnityEditor.MaterialProperty,System.String,UnityEditor.MaterialEditor)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MathUtils">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlendPositionY">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CurveWrapper/SelectionMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatLength(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MaterialPropertyDrawer.Apply(UnityEditor.MaterialProperty)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.loopBlendPositionXZ">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.DrawCameraMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatConjugate(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.keepOriginalOrientation">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.keepOriginalPositionY">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.OrthogonalizeMatrix(UnityEngine.Matrix4x4)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BodyPart">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.keepOriginalPositionXZ">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.QuaternionNormalize(UnityEngine.Quaternion&)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.heightFromFeet">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.QuaternionFromMatrix(UnityEngine.Matrix4x4)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.GameViewSizeGroupType">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BoneState">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatLog(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationClipSettings.mirror">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.LightmapBakeQuality">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AnimationUtility">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatExp(UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetQuatSquad(System.Single,UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AnimationMode">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AnimationUtility.onCurveWasModified">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.IHasCustomMenu">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.GetSquadIntermediate(UnityEngine.Quaternion,UnityEngine.Quaternion,UnityEngine.Quaternion)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AnimationMode.animatedPropertyColor">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.IHasCustomMenu.AddItemsToMenu(UnityEditor.GenericMenu)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BuildOptions">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.IsPropertyAnimated(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorStyles">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.Ease(System.Single,System.Single,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BuildAssetBundleOptions">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.StopAnimationMode()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.Slerp(UnityEngine.Quaternion,UnityEngine.Quaternion,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.InAnimationMode()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.label">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BuildPipeline">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.IntersectRayTriangle(UnityEngine.Ray,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.StartAnimationMode()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniLabel">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.BuildPipeline.isBuildingPlayer">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.BeginSampling()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.ClosestPtSegmentRay(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Ray,System.Single&,System.Single&,UnityEngine.Vector3&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.largeLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.EndSampling()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.IntersectRaySphere(UnityEngine.Ray,UnityEngine.Vector3,System.Single,System.Single&,UnityEngine.Vector3&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.PushAssetDependencies()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.boldLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.SampleAnimationClip(UnityEngine.GameObject,UnityEngine.AnimationClip,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MathUtils.ClosestPtRaySphere(UnityEngine.Ray,UnityEngine.Vector3,System.Single,System.Single&,UnityEngine.Vector3&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.PopAssetDependencies()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniBoldLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AnimationMode.AddPropertyModification(UnityEditor.EditorCurveBinding,UnityEditor.PropertyModification,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.StaticEditorFlags">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.wordWrappedLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildPlayer(System.String[],System.String,UnityEditor.BuildTarget,UnityEditor.BuildOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget,UnityEditor.BuildOptions)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.RemoveAssetOptions">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.wordWrappedMiniLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget,System.UInt32&,UnityEditor.BuildOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildStreamedSceneAssetBundle(System.String[],System.String,UnityEditor.BuildTarget,System.UInt32&)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorApplication">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteLabel">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ImportAssetOptions">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.projectWindowItemOnGUI">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,UnityEditor.BuildAssetBundleOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundle(UnityEngine.Object,UnityEngine.Object[],System.String,System.UInt32&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteMiniLabel">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetDatabase">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.hierarchyWindowItemOnGUI">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,UnityEditor.BuildAssetBundleOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions,UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,System.UInt32&,UnityEditor.BuildAssetBundleOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.BuildPipeline.BuildAssetBundleExplicitAssetNames(UnityEngine.Object[],System.String[],System.String,System.UInt32&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteLargeLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.Contains(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.Contains(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.update">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BuildTarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.whiteBoldLabel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.CreateFolder(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.hierarchyWindowChanged">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.BuildTarget.iPhone">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.radioButton">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsMainAsset(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsMainAsset(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.projectWindowChanged">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButton">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BuildTargetGroup">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsSubAsset(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsSubAsset(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.searchChanged">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButtonLeft">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.BuildTargetGroup.iPhone">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GenerateUniqueAssetPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.modifierKeysChanged">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButtonMid">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.StartAssetEditing()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CallbackOrderAttribute">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorGUILayout">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.StopAssetEditing()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorApplication.playmodeStateChanged">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniButtonRight">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.textField">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ValidateMoveAsset(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.currentScene">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.MoveAsset(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.textArea">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,System.String,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,UnityEngine.GUIContent)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Foldout(System.Boolean,UnityEngine.GUIContent,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.RenameAsset(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.isPlaying">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniTextField">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.MoveAssetToTrash(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(System.String,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(System.String,UnityEngine.GUIStyle,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(UnityEngine.GUIContent)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(UnityEngine.GUIContent,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PrefixLabel(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.isPlayingOrWillChangePlaymode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.numberField">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.DeleteAsset(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LabelField(UnityEngine.GUIContent,UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.isPaused">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.popup">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ImportAsset(System.String,UnityEditor.ImportAssetOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ImportAsset(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.isCompiling">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.String,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(System.String,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Toggle(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.objectField">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.CopyAsset(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.isUpdating">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(System.String,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.objectFieldThumb">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.WriteImportSettingsIfDirty(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(System.String,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ToggleLeft(UnityEngine.GUIContent,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.applicationContentsPath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.colorField">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(UnityEngine.GUIContent,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.applicationPath">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.AddObjectToAsset(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextField(UnityEngine.GUIContent,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.AddObjectToAsset(UnityEngine.Object,UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.layerMaskField">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toggle">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorApplication.timeSinceStartup">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetAssetPath(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetAssetPath(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextArea(System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TextArea(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.foldout">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.NewScene()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetAssetOrScenePath(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.SelectableLabel(System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.SelectableLabel(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.foldoutPreDrop">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetTextMetaDataPathFromAssetPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.OpenScene(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(UnityEngine.GUIContent,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PasswordField(UnityEngine.GUIContent,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toggleGroup">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.OpenSceneAdditive(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.LoadAssetAtPath(System.String,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.String,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(System.String,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(UnityEngine.GUIContent,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.standardFont">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.FloatField(UnityEngine.GUIContent,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.LoadMainAssetAtPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveScene(System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveScene(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveScene()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.boldFont">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.LoadAllAssetRepresentationsAtPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveCurrentSceneIfUserWantsTo()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.String,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(System.String,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniFont">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.LoadAllAssetsAtPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.miniBoldFont">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.OpenProject(System.String,System.String[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(System.String,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEngine.GUIContent,System.Single,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEditor.SerializedProperty,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEditor.SerializedProperty,System.Single,System.Single,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.Refresh(UnityEditor.ImportAssetOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Slider(UnityEditor.SerializedProperty,System.Single,System.Single,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.Refresh()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbar">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.SaveAssets()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.OpenAsset(System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.OpenAsset(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.OpenAsset(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(System.Int32,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.OpenAsset(UnityEngine.Object,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.OpenAsset(UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(System.String,System.Int32,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEngine.GUIContent,System.Int32,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEditor.SerializedProperty,System.Int32,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarButton">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEditor.SerializedProperty,System.Int32,System.Int32,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.Step()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntSlider(UnityEditor.SerializedProperty,System.Int32,System.Int32,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.AssetPathToGUID(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarPopup">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.LockReloadAssemblies()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MinMaxSlider(System.Single&,System.Single&,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MinMaxSlider(UnityEngine.GUIContent,System.Single&,System.Single&,System.Single,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GUIDToAssetPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarDropDown">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.ExecuteMenuItem(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.toolbarTextField">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.SaveAssets()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.UnlockReloadAssemblies()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.String,System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(System.String,System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Popup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetCachedIcon(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.inspectorDefaultMargins">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.Exit(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.String,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.SetLabels(UnityEngine.Object,System.String[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorStyles.inspectorFullWidthMargins">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(System.String,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.RepaintProjectWindow()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(UnityEngine.GUIContent,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumPopup(UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.RepaintAnimationWindow()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetLabels(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,System.String[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,System.String[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.String,System.Int32,System.String[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(System.String,System.Int32,System.String[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.IntPopup(UnityEditor.SerializedProperty,UnityEngine.GUIContent[],System.Int32[],UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ClearLabels(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.RepaintHierarchyWindow()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorGUIUtility">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetDependencies(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(System.String,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.GetDependencies(System.String[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.DirtyHierarchyWindowSorting()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(UnityEngine.GUIContent,System.String,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.TagField(UnityEngine.GUIContent,System.String,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.singleLineHeight">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ExportPackage(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ExportPackage(System.String,System.String,UnityEditor.ExportPackageOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ExportPackage(System.String[],System.String,UnityEditor.ExportPackageOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorApplication.Beep()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ExportPackage(System.String[],System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.String,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(System.String,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.LayerField(UnityEngine.GUIContent,System.Int32,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.standardVerticalSpacing">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.ImportPackage(System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorGUI">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(UnityEngine.GUIContent,System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.String,System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(UnityEngine.GUIContent,System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.String,System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.Int32,System.String[],UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.MaskField(System.Int32,System.String[],UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.isProSkin">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsOpenForEdit(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsOpenForEdit(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsOpenForEdit(UnityEngine.Object,System.String&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.IsOpenForEdit(System.String,System.String&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.String,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(UnityEngine.GUIContent,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.String,System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.Enum,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.whiteTexture">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.FindAssets(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.FindAssets(System.String,System.String[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetDatabase.FindAssets(UnityEditor.SearchFilter)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Handles">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.Object,System.Type,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.Object,System.Type,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(System.String,UnityEngine.Object,System.Type,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(System.String,UnityEngine.Object,System.Type,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.GUIContent,UnityEngine.Object,System.Type,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEngine.GUIContent,UnityEngine.Object,System.Type,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.editingTextField">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CustomEditor">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector2Field(System.String,UnityEngine.Vector2,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector2Field(UnityEngine.GUIContent,UnityEngine.Vector2,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Handles/FilterMode">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.CanEditMultipleObjects">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.hierarchyMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector3Field(System.String,UnityEngine.Vector3,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector3Field(UnityEngine.GUIContent,UnityEngine.Vector3,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.HandleUtility">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.wideMode">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Editor">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.currentViewWidth">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Vector4Field(System.String,UnityEngine.Vector4,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.HandleUtility.acceleration">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.labelWidth">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Editor.target">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.HandleUtility.niceMouseDelta">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.RectField(UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.RectField(System.String,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.RectField(UnityEngine.GUIContent,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.fieldWidth">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Editor.targets">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.HandleUtility.niceMouseDeltaZoom">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BoundsField(UnityEngine.Bounds,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BoundsField(System.String,UnityEngine.Bounds,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BoundsField(UnityEngine.GUIContent,UnityEngine.Bounds,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Editor.serializedObject">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorGUIUtility.systemCopyBuffer">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.CalcLineTranslation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ColorField(UnityEngine.Color,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ColorField(System.String,UnityEngine.Color,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ColorField(UnityEngine.GUIContent,UnityEngine.Color,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.IconContent(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object[],System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.CreateEditor(UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.IconContent(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PointOnLineParameter(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.AnimationCurve,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(System.String,UnityEngine.AnimationCurve,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.GUIContent,UnityEngine.AnimationCurve,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ProjectPointLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.DrawDefaultInspector()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.ObjectContent(UnityEngine.Object,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(System.String,UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEngine.GUIContent,UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.CurveField(UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Rect,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointLine(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnInspectorGUI()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.HasObjectThumbnail(System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.InspectorTitlebar(System.Boolean,UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.InspectorTitlebar(System.Boolean,UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.InspectorTitlebar(UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.ObjectField(UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.RequiresConstantRepaint()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointBezier(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.SetIconSize(UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.HelpBox(System.String,UnityEditor.MessageType)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.HelpBox(System.String,UnityEditor.MessageType,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToLine(UnityEngine.Vector3,UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.GetIconSize()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.Repaint()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.Space()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.HasPreviewGUI()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToCircle(UnityEngine.Vector3,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.FindTexture(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginToggleGroup(System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginToggleGroup(UnityEngine.GUIContent,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.GetPreviewTitle()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToRectangle(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.GetBuiltinSkin(UnityEditor.EditorSkin)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndToggleGroup()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.RenderStaticPreview(System.String,UnityEngine.Object[],System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointToLine(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.LoadRequired(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginHorizontal(UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistancePointToLineSegment(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnPreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginHorizontal(UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginHorizontal(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.Load(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.Load(System.String,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndHorizontal()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnInteractivePreviewGUI(UnityEngine.Rect,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToDisc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.PingObject(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.PingObject(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnPreviewSettings()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginVertical(UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginVertical(UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginVertical(UnityEngine.GUIContent,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ClosestPointToDisc(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.GetInfoString()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndVertical()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.RenderGameViewCameras(UnityEngine.Rect,System.Int32,System.Boolean,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.RenderGameViewCameras(UnityEngine.Rect,System.Boolean,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.RenderGameViewCameras(UnityEngine.Rect,UnityEngine.Rect,System.Boolean,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ClosestPointToArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.DrawHeader()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginScrollView(UnityEngine.Vector2,System.Boolean,System.Boolean,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.OnHeaderGUI()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.QueueGameViewInputEvent(UnityEngine.Event)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.DistanceToPolyLine(UnityEngine.Vector3[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndScrollView()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndScrollView(System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.DrawPreview(UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.ClosestPointToPolyLine(UnityEngine.Vector3[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.LookLikeControls(System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.LookLikeControls()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.LookLikeControls(System.Single,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.GUIContent,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.PropertyField(UnityEditor.SerializedProperty,UnityEngine.GUIContent,System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Editor.UseDefaultMargins()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.AddControl(System.Int32,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.CommandEvent(System.String)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ReplacePrefabOptions">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.AddDefaultControl(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(System.Boolean,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(System.Boolean,System.Single,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.GetControlRect(System.Boolean,System.Single,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.DrawColorSwatch(UnityEngine.Rect,UnityEngine.Color)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.DrawColorSwatch(UnityEngine.Rect,UnityEngine.Color,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PrefabType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.GetHandleSize(UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.BeginFadeGroup(System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.DrawCurveSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PropertyModification">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.WorldToGUIPoint(UnityEngine.Vector3)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUILayout.EndFadeGroup()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.DrawRegionSwatch(UnityEngine.Rect,UnityEditor.SerializedProperty,UnityEditor.SerializedProperty,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.DrawRegionSwatch(UnityEngine.Rect,UnityEngine.AnimationCurve,UnityEngine.AnimationCurve,UnityEngine.Color,UnityEngine.Color,UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.target">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.GUIPointToWorldRay(UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.UndoPropertyModification">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.RGBToHSV(UnityEngine.Color,System.Single&,System.Single&,System.Single&)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.propertyPath">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.WorldPointToSizedRect(UnityEngine.Vector3,UnityEngine.GUIContent,UnityEngine.GUIStyle)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.UndoPropertyModification.propertyModification">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.HSVToRGB(System.Single,System.Single,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.value">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickRectObjects(UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickRectObjects(UnityEngine.Rect,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.AddCursorRect(UnityEngine.Rect,UnityEditor.MouseCursor)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.UndoPropertyModification.keepPrefabOverride">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.AddCursorRect(UnityEngine.Rect,UnityEditor.MouseCursor,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.PropertyModification.objectReference">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickGameObject(UnityEngine.Vector2,System.Int32&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PickGameObject(UnityEngine.Vector2,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ExportPackageOptions">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PrefabUtility">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.ShowObjectPicker(UnityEngine.Object,System.Boolean,System.String,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PushCamera(UnityEngine.Camera)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.FileUtil">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.PrefabUtility.prefabInstanceUpdated">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.GetObjectPickerObject()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.PopCamera(UnityEngine.Camera)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorMaterialUtility">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorGUIUtility.GetObjectPickerControlID()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPrefabParent(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.RaySnap(UnityEngine.Ray)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MessageType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorMaterialUtility.ResetDefaultTextures(UnityEngine.Material,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPrefabObject(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.HandleUtility.Repaint()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorSkin">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPropertyModifications(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorMaterialUtility.SetShaderDefaults(UnityEngine.Shader,System.String[],UnityEngine.Texture[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorBehaviorMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.SetPropertyModifications(UnityEngine.Object,UnityEditor.PropertyModification[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PSP2BuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MouseCursor">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SpritePackerMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.InstantiateAttachedAsset(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SCEBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetMoveResult">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.RecordPrefabInstancePropertyModifications(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorWindow">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetDeleteResult">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.XboxBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.MergeAllPrefabInstances(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.XboxRunMethod">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.wantsMouseMove">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MonoImporter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.DisconnectPrefabInstance(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.SetDefaultReferences(System.String[],UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.autoRepaintOnSceneChange">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.InstantiatePrefab(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetAllRuntimeMonoScripts()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.maximized">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.BlackBerryBuildType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.CreateEmptyPrefab(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.focusedWindow">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.SetExecutionOrder(UnityEditor.MonoScript,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorUserBuildSettings">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.CreatePrefab(System.String,UnityEngine.GameObject,UnityEditor.ReplacePrefabOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.CreatePrefab(System.String,UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetExecutionOrder(UnityEditor.MonoScript)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.mouseOverWindow">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.EditorUserBuildSettings.activeBuildTargetChanged">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ReplacePrefab(UnityEngine.GameObject,UnityEngine.Object,UnityEditor.ReplacePrefabOptions)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ReplacePrefab(UnityEngine.GameObject,UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.minSize">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetScript()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.selectedBuildTargetGroup">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoImporter.GetDefaultReference(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.maxSize">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.FindRootGameObjectWithSameParentPrefab(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.selectedStandaloneTarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.title">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ClipAnimationMaskType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.FindValidUploadPrefabInstanceRoot(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.psp2BuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.depthBufferBits">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ReconnectToLastPrefab(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterClipAnimation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.sceBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.antiAlias">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.ResetToPrefabState(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.takeName">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.explicitNullChecks">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.IsComponentAddedToPrefabInstance(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorWindow.position">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.name">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.enableHeadlessMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.RevertPrefabInstance(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.BeginWindows()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.xboxBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.firstFrame">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.GetPrefabType(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.EndWindows()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.xboxRunMethod">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.lastFrame">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PrefabUtility.FindPrefabRoot(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowNotification(UnityEngine.GUIContent)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.androidBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.wrapMode">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Undo">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.RemoveNotification()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.blackberryBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.loop">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.Undo.undoRedoPerformed">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowTab()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.blackberryBuildType">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.rotationOffset">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.Undo.willFlushUndoRecord">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Focus()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.tizenBuildSubtarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.heightOffset">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.Undo.postprocessModifications">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowUtility()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.webPlayerStreamed">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.cycleOffset">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowPopup()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterCompleteObjectUndo(UnityEngine.Object[],System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.webPlayerOfflineDeployment">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.loopTime">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowAsDropDown(UnityEngine.Rect,UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowAsDropDown(UnityEngine.Rect,UnityEngine.Vector2,UnityEditor.PopupLocationHelper/PopupLocation[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.SetTransformParent(UnityEngine.Transform,UnityEngine.Transform,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.activeBuildTarget">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.loopPose">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Show()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Show(System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterCreatedObjectUndo(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.activeScriptCompilationDefines">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.lockRootRotation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.ShowAuxWindow()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.DestroyObjectImmediate(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.development">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.lockRootHeightY">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.AddComponent(UnityEngine.GameObject,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.AddComponent(UnityEngine.GameObject)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type,System.Boolean,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type,System.Boolean,System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Boolean,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.connectProfiler">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Boolean,System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String,System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindow(System.String,System.Boolean,System.Type[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.lockRootPositionXZ">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RegisterFullObjectHierarchyUndo(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.allowDebugging">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.FocusWindowIfItsOpen(System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.FocusWindowIfItsOpen()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.keepOriginalOrientation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RecordObject(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.symlinkLibraries">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(System.Type,UnityEngine.Rect,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.keepOriginalPositionY">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(System.Type,UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(System.Type,UnityEngine.Rect,System.Boolean,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RecordObjects(UnityEngine.Object[],System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect,System.Boolean,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.GetWindowWithRect(UnityEngine.Rect,System.Boolean,System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.EditorUserBuildSettings.installInBuildFolder">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.keepOriginalPositionXZ">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.ClearUndo(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Close()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.heightFromFeet">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUserBuildSettings.SwitchActiveBuildTarget(UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.PerformUndo()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.Repaint()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.mirror">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUserBuildSettings.GetBuildLocation(UnityEditor.BuildTarget)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.PerformRedo()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorWindow.SendEvent(UnityEngine.Event)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.maskType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUserBuildSettings.SetBuildLocation(UnityEditor.BuildTarget,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.IncrementCurrentGroup()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterAnimationType">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporterClipAnimation.maskSource">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.IconDrawStyle">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.GetCurrentGroup()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporter">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AudioImporterLoadType">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterMaterialName">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RevertAllInCurrentGroup()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.importMaterials">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterMaterialSearch">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AudioImporter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.RevertAllDownToGroup(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.materialName">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AudioImporter.forceToMono">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterTangentSpaceMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.CollapseUndoOperations(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.materialSearch">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterMeshCompression">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AudioImporter.format">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Undo.FlushUndoRecordObjects()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.globalScale">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterAnimationCompression">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AudioImporter.compressionBitrate">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.UnwrapParam">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.isUseFileUnitsSupported">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AudioImporter.loopable">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ModelImporterGenerateAnimations">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.angleError">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.useFileUnits">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AudioImporter.hardware">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ShaderUtil">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.areaError">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.importBlendShapes">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AudioImporter.threeD">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ShaderUtil.hardwareSupportsRectRenderTexture">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.hardAngle">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.addCollider">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyCount(UnityEngine.Shader)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MovieImporter">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.UnwrapParam.packMargin">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.normalSmoothingAngle">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyDescription(UnityEngine.Shader,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MovieImporter.quality">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.UnwrapParam.SetDefaults(UnityEditor.UnwrapParam&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.splitTangentsAcrossSeams">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyName(UnityEngine.Shader,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MovieImporter.linearTexture">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Unwrapping">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.swapUVChannels">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetPropertyType(UnityEngine.Shader,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.MovieImporter.duration">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.generateSecondaryUV">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GeneratePerTriangleUV(UnityEngine.Mesh)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GeneratePerTriangleUV(UnityEngine.Mesh,UnityEditor.UnwrapParam)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetRangeLimits(UnityEngine.Shader,System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.secondaryUVAngleDistortion">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.FontTextureCase">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GenerateSecondaryUVSet(UnityEngine.Mesh)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Unwrapping.GenerateSecondaryUVSet(UnityEngine.Mesh,UnityEditor.UnwrapParam)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.GetTexDim(UnityEngine.Shader,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.secondaryUVAreaDistortion">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.FontRenderingMode">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.StaticOcclusionCulling">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.IsShaderPropertyHidden(UnityEngine.Shader,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.secondaryUVHardAngle">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MeshUtility">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCulling.isRunning">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.secondaryUVPackMargin">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.SetPerTriangleUV2(UnityEngine.Mesh,UnityEngine.Vector2[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.CreateShaderAsset(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCulling.smallestOccluder">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.generateAnimations">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCulling.smallestHole">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderUtil.UpdateShaderAsset(UnityEngine.Shader,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.SetMeshCompression(UnityEngine.Mesh,UnityEditor.ModelImporterMeshCompression)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.transformPaths">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCulling.backfaceThreshold">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ResolutionDialogSetting">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.GetMeshCompression(UnityEngine.Mesh)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.referencedClips">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCulling.doesSceneHaveManualPortals">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MeshUtility.Optimize(UnityEngine.Mesh)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AspectRatio">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCulling.umbraDataSize">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.isReadable">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ArrayUtility">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MacFullscreenMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.optimizeMesh">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.Compute()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.D3D9FullscreenMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Add(T[]&,T)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.normalImportMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.GenerateInBackground()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.ArrayEquals(T[],T[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.StrippingLevel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.Cancel()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.tangentImportMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.AddRange(T[]&,T[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ScriptCallOptimizationLevel">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.bakeIK">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.Clear()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Insert(T[]&,System.Int32,T)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSSdkVersion">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.isBakeIKSupported">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.StaticOcclusionCulling.SetDefaultOcclusionBakeSettings()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Remove(T[]&,T)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.isTangentImportSupported">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSTargetOSVersion">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.StaticOcclusionCullingVisualization">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.FindAll(T[],System.Predicate`1<T>)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_0">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.meshCompression">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showOcclusionCulling">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Find(T[],System.Predicate`1<T>)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_1">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.importAnimation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showPreVisualization">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_2">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.FindIndex(T[],System.Predicate`1<T>)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.optimizeGameObjects">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showViewVolumes">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.IndexOf(T[],T)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_4_3">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.extraExposedTransformPaths">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showDynamicObjectBounds">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_5_0">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.LastIndexOf(T[],T)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.animationCompression">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showPortals">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.RemoveAt(T[]&,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_5_1">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showVisibilityLines">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.animationRotationError">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_6_0">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Contains(T[],T)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.showGeometryCulling">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetOSVersion.iOS_7_0">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.animationPositionError">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ArrayUtility.Clear(T[]&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.isPreviewOcclusionCullingCameraInPVS">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidSplashScreenScale">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSTargetDevice">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.animationScaleError">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetDevice.iPhoneOnly">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ApiCompatibilityLevel">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.StaticOcclusionCullingVisualization.previewOcclusionCamera">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.animationWrapMode">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetDevice.iPadOnly">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.animationType">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PlayerSettings">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PlayerSettings/SamsungTV">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.iOSTargetDevice.iPhoneAndiPad">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ModelImporter.clipAnimations">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.companyName">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSShowActivityIndicatorOnLoading">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PreferenceItem">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.productName">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidTargetDevice">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterFormat">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ScriptableWizard">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.productGUID">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.AndroidTargetDevice.x86">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.colorSpace">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterMipFilter">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ScriptableWizard.helpString">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidSdkVersions">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterGenerateCubemap">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ScriptableWizard.errorString">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultScreenWidth">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidPreferredInstallLocation">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterNPOTScale">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.ScriptableWizard.isValid">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultScreenHeight">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AndroidShowActivityIndicatorOnLoading">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterNormalFilter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultWebScreenWidth">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.Type,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ScriptableWizard.DisplayWizard(System.String,System.Type,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TargetGlesGraphics">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterType">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultWebScreenHeight">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SerializedPropertyType">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSTargetResolution">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SpriteImportMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.displayResolutionDialog">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SerializedObject">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.UIOrientation">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SpriteMetaData">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultIsFullScreen">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.name">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.iOSStatusBarStyle">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedObject.targetObject">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultIsNativeResolution">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.rect">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedObject.targetObjects">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MenuItem">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.runInBackground">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.alignment">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedObject.isEditingMultipleObjects">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MenuCommand">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.captureSingleScreen">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.pivot">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.Update()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.MenuCommand.context">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.usePlayerLog">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.SetIsDifferentCacheDirty()">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.SpriteMetaData.border">
+			<summary></summary>
+		</member>
+		<member name="F:UnityEditor.MenuCommand.userData">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.resizableWindow">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.UpdateIfDirtyOrScript()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporter">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.GizmoType">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.useMacAppStoreValidation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.GetIterator()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.textureFormat">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.DrawGizmo">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.macFullscreenMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.FindProperty(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.maxTextureSize">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorPrefs">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.ApplyModifiedProperties()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.d3d9FullscreenMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.compressionQuality">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetInt(System.String,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.visibleInBackground">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedObject.CopyFromSerializedProperty(UnityEditor.SerializedProperty)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.grayscaleToAlpha">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.forceSingleInstance">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetInt(System.String,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetInt(System.String)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SerializedProperty">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.generateCubemap">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.firstStreamedLevelWithResources">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetFloat(System.String,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.serializedObject">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.npotScale">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.resolutionDialogBanner">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetFloat(System.String,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetFloat(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.hasMultipleDifferentValues">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.isReadable">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.iPhoneBundleIdentifier">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetString(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.displayName">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.mipmapEnabled">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.keystorePass">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetString(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetString(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.borderMipmap">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.name">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.keyaliasPass">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.SetBool(System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.linearTexture">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.type">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxTitleId">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.mipmapFilter">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.tooltip">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetBool(System.String,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.GetBool(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxImageXexFilePath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.depth">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.fadeout">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.HasKey(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxSpaFilePath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.propertyPath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.mipmapFadeDistanceStart">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.DeleteKey(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxGenerateSpa">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.mipmapFadeDistanceEnd">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.editable">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorPrefs.DeleteAll()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxEnableGuest">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.isAnimated">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.generateMipsInLinearSpace">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Help">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxDeployKinectResources">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.isExpanded">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.convertToNormalmap">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Help.HasHelpForObject(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Help.HasHelpForObject(UnityEngine.Object,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.normalmap">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxDeployKinectHeadOrientation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.hasChildren">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Help.ShowHelpForObject(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.hasVisibleChildren">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxDeployKinectHeadPosition">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.normalmapFilter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Help.ShowHelpPage(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.heightmapScale">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.isInstantiatedPrefab">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxSplashScreen">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Help.BrowseURL(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxAdditionalTitleMemorySize">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.prefabOverride">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.lightmap">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ObjectNames">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxEnableKinect">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.anisoLevel">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.propertyType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.NicifyVariableName(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.intValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.filterMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxEnableKinectAutoTracking">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxEnableSpeech">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.boolValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.wrapMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.GetInspectorTitle(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.mipMapBias">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.floatValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxSpeechDB">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.GetClassName(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.alphaIsTransparency">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.stringValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.gpuSkinning">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.GetDragAndDropTitle(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.colorValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxPIXTextureCapture">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.qualifiesForSpritePacking">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ObjectNames.SetNameSmart(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.xboxEnableAvatar">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.spriteImportMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.animationCurveValue">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.DragAndDropVisualMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.spritesheet">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.objectReferenceValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.bundleIdentifier">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.DragAndDrop">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.objectReferenceInstanceIDValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.bundleVersion">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.spritePackingTag">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.DragAndDrop.objectReferences">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.spritePixelsPerUnit">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.DragAndDrop.paths">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.enumValueIndex">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.statusBarHidden">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.strippingLevel">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.spritePivot">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.enumNames">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.DragAndDrop.visualMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.defaultInterfaceOrientation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.spriteBorder">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.DragAndDrop.activeControlID">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.enumDisplayNames">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.allowedAutorotateToPortrait">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.vector2Value">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporter.textureType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.PrepareStartDrag()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.allowedAutorotateToPortraitUpsideDown">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.vector3Value">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.StartDrag(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String,System.Int32&,UnityEditor.TextureImporterFormat&,System.Int32&)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.GetPlatformTextureSettings(System.String,System.Int32&,UnityEditor.TextureImporterFormat&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.allowedAutorotateToLandscapeRight">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.vector4Value">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.AcceptDrag()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String,System.Int32,UnityEditor.TextureImporterFormat,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.SetPlatformTextureSettings(System.String,System.Int32,UnityEditor.TextureImporterFormat)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.allowedAutorotateToLandscapeLeft">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.quaternionValue">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.GetGenericData(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.ClearPlatformTextureSettings(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.useAnimatedAutorotation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.rectValue">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.DragAndDrop.SetGenericData(System.String,System.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.boundsValue">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.use32BitDisplayBuffer">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.DoesSourceTextureHaveAlpha()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.MonoScript">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.isArray">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.targetGlesGraphics">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.DoesSourceTextureHaveColor()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoScript.GetClass()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.SerializedProperty.arraySize">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.apiCompatibilityLevel">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.ReadTextureSettings(UnityEditor.TextureImporterSettings)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoScript.FromMonoBehaviour(UnityEngine.MonoBehaviour)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Dispose()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.stripUnusedMeshComponents">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.SetTextureSettings(UnityEditor.TextureImporterSettings)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.MonoScript.FromScriptableObject(UnityEngine.ScriptableObject)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.advancedLicense">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.EqualContents(UnityEditor.SerializedProperty,UnityEditor.SerializedProperty)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporter.ReadTextureImportInstructions(UnityEditor.BuildTarget,UnityEngine.TextureFormat&,UnityEngine.ColorSpace&,System.Int32&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.aotOptions">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.GameObjectUtility">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TextureImporterSettings">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Next(System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.accelerometerFrequency">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.GenericMenu">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.mobileMTRendering">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.NextVisible(System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.mipmapFilter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddItem(UnityEngine.GUIContent,System.Boolean,UnityEditor.GenericMenu/MenuFunction)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddItem(UnityEngine.GUIContent,System.Boolean,UnityEditor.GenericMenu/MenuFunction2,System.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Reset()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.renderingPath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.mipmapEnabled">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddDisabledItem(UnityEngine.GUIContent)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.CountRemaining()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.mobileRenderingPath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.generateMipsInLinearSpace">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.useDirect3D11">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.CountInProperty()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.AddSeparator(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.linearTexture">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.Copy()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.GetItemCount()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.PlayerSettings.stereoscopic3D">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.fadeOut">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.DuplicateCommand()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.ShowAsContext()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.borderMipmap">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.HasAspectRatio(UnityEditor.AspectRatio)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.DeleteCommand()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.GenericMenu.DropDown(UnityEngine.Rect)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.GenericMenu/MenuItem">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ViewTool">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.mipmapFadeDistanceStart">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.FindPropertyRelative(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.SetAspectRatio(UnityEditor.AspectRatio,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PivotMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.mipmapFadeDistanceEnd">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetEndProperty()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetEndProperty(System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.PivotRotation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.GetIconsForTargetGroup(UnityEditor.BuildTargetGroup)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.convertToNormalMap">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetEnumerator()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Tool">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.SetIconsForTargetGroup(UnityEditor.BuildTargetGroup,UnityEngine.Texture2D[])">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.normalMap">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.GetIconSizesForTargetGroup(UnityEditor.BuildTargetGroup)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.GetArrayElementAtIndex(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Tools">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.heightmapScale">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.InsertArrayElementAtIndex(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.GetScriptingDefineSymbolsForGroup(UnityEditor.BuildTargetGroup)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.normalMapFilter">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.current">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.DeleteArrayElementAtIndex(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.PlayerSettings.SetScriptingDefineSymbolsForGroup(UnityEditor.BuildTargetGroup,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.grayscaleToAlpha">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.viewTool">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.ClearArray()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.readable">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.handlePosition">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.textureFormat">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SerializedProperty.MoveArrayElement(System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.handleRect">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.LODUtility">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.maxTextureSize">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SubstanceImporter">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.handleRectRotation">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.LODUtility.CalculateLODGroupBoundingBox(UnityEngine.LODGroup)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.npotScale">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.pivotMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetPrototypeNames()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.lightmap">
+			<summary></summary>
+		</member>
+		<member name="T:AssetModificationProcessor">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetModificationProcessor">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.rectBlueprintMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterialCount()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.generateCubemap">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetPostprocessor">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterials()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.handleRotation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.seamlessCubemap">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AssetPostprocessor.assetPath">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.CloneMaterial(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.pivotRotation">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.filterMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AssetPostprocessor.assetImporter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.InstantiateMaterial(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.hidden">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.aniso">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.DestroyMaterial(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogWarning(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogWarning(System.String,UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.visibleLayers">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.mipmapBias">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.ResetMaterial(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Tools.lockedLayers">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogError(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.LogError(System.String,UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.RenameMaterial(UnityEngine.ProceduralMaterial,System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.wrapMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.GetVersion()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.HighlightSearchMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.compressionQuality">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPostprocessor.GetPostprocessOrder()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.OnShaderModified(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Highlighter">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.alphaIsTransparency">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterialOffset(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetImporter">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetMaterialOffset(UnityEngine.ProceduralMaterial,UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spriteMode">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Lightmapping">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AssetImporter.assetPath">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spritePixelsPerUnit">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetMaterialScale(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.AssetImporter.userData">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Lightmapping.isRunning">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spriteExtrude">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetMaterialScale(UnityEngine.ProceduralMaterial,UnityEngine.Vector2)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeAsync()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetImporter.GetAtPath(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spriteMeshType">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetGenerateAllOutputs(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Bake()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AssetPreview">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spriteAlignment">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetGenerateAllOutputs(UnityEngine.ProceduralMaterial,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeSelectedAsync()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetAssetPreview(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetAssetPreview(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetAssetPreview(System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spritePivot">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetAnimationUpdateRate(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeSelected()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreview(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreview(System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TextureImporterSettings.spriteBorder">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetAnimationUpdateRate(UnityEngine.ProceduralMaterial,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeLightProbesOnlyAsync()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreviews()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.IsLoadingAssetPreviews(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetGenerateMipMaps(UnityEngine.ProceduralMaterial)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.BakeLightProbesOnly()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporterSettings.Equal(UnityEditor.TextureImporterSettings,UnityEditor.TextureImporterSettings)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetMiniThumbnail(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetGenerateMipMaps(UnityEngine.ProceduralMaterial,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Cancel()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporterSettings.CopyTo(UnityEditor.TextureImporterSettings)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetMiniTypeThumbnail(System.Type)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetTextureAlphaSource(UnityEngine.ProceduralMaterial,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.AssetPreview.GetMiniTypeThumbnail(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Clear()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TextureImporterSettings.ApplyTextureType(UnityEditor.TextureImporterType,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetTextureAlphaSource(UnityEngine.ProceduralMaterial,System.String,UnityEngine.ProceduralOutputType)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.NavMeshBuilder">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Lightmapping.Tetrahedralize(UnityEngine.Vector3[],System.Int32[]&,UnityEngine.Vector3[]&)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.NavMeshBuilder.isRunning">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.GetPlatformTextureSettings(System.String,System.String,System.Int32&,System.Int32&,System.Int32&,System.Int32&)">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.ShaderImporter">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.LightmapEditorSettings">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.BuildNavMesh()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderImporter.GetShader()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.SubstanceImporter.SetPlatformTextureSettings(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.BuildNavMeshAsync()">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.maxAtlasWidth">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderImporter.SetDefaultTextures(System.String[],UnityEngine.Texture[])">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SubstanceArchive">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.SelectionMode">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.ClearAllNavMeshes()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.ShaderImporter.GetDefaultTexture(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.maxAtlasHeight">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.AudioImporterFormat">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.NavMeshBuilder.Cancel()">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.Selection">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.resolution">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.textureCompression">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.transforms">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.TrueTypeFontImporter">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.aoMaxDistance">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.activeTransform">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.fontSize">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.padding">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.fontTextureCase">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.gameObjects">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.aoContrast">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.activeGameObject">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.includeFontData">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.aoAmount">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.activeObject">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.fontNames">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.lockAtlas">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.activeInstanceID">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.customCharacters">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.skyLightColor">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.objects">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.fontTTFName">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.skyLightIntensity">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.instanceIDs">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.characterSpacing">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.quality">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.Selection.assetGUIDs">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.characterPadding">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.bounceBoost">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Selection.Contains(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Selection.Contains(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.TrueTypeFontImporter.fontRenderingMode">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.finalGatherRays">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Selection.GetTransforms(UnityEditor.SelectionMode)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.finalGatherContrastThreshold">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.TrueTypeFontImporter.GenerateEditableFont(System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.Selection.GetFiltered(System.Type,UnityEditor.SelectionMode)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.finalGatherGradientThreshold">
+			<summary></summary>
+		</member>
+		<member name="T:UnityEditor.EditorUtility">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.finalGatherInterpolationPoints">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.RevealInFinder(System.String)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.lastUsedResolution">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SetDirty(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.bounces">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.IsPersistent(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="P:UnityEditor.LightmapEditorSettings.bounceIntensity">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayDialog(System.String,System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayDialog(System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayDialogComplex(System.String,System.String,System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.OpenFilePanel(System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFilePanel(System.String,System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.NaturalCompare(System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.OpenFolderPanel(System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFolderPanel(System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFilePanelInProject(System.String,System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SaveFilePanelInProject(System.String,System.String,System.String,System.String,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.InstanceIDToObject(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CompressTexture(UnityEngine.Texture2D,UnityEngine.TextureFormat,System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CompressTexture(UnityEngine.Texture2D,UnityEngine.TextureFormat,UnityEngine.TextureCompressionQuality)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CompressTexture(UnityEngine.Texture2D,UnityEngine.TextureFormat)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CopySerialized(UnityEngine.Object,UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CollectDependencies(UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CollectDeepHierarchy(UnityEngine.Object[])">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.UnloadUnusedAssets()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.UnloadUnusedAssetsIgnoreManagedReferences()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayPopupMenu(UnityEngine.Rect,System.String,UnityEditor.MenuCommand)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.FocusProjectWindow()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.FormatBytes(System.Int32)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.FormatBytes(System.Int64)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayProgressBar(System.String,System.String,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.DisplayCancelableProgressBar(System.String,System.String,System.Single)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.ClearProgressBar()">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.GetObjectEnabled(UnityEngine.Object)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SetObjectEnabled(UnityEngine.Object,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.SetSelectedWireframeHidden(UnityEngine.Renderer,System.Boolean)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.ExtractOggFile(UnityEngine.Object,System.String)">
+			<summary></summary>
+		</member>
+		<member name="M:UnityEditor.EditorUtility.CreateGameObjectWithHideFlags(System.String,UnityEngine.HideFlags,System.Type[])">
+			<summary></summary>
+		</member>
+	</members>
+</doc>

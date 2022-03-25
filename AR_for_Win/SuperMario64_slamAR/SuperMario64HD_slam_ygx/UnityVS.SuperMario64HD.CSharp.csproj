@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D35EA961-FF81-60B8-AD91-1DD7C508A90A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneLinux:17</UnityBuildTarget>
+    <UnityVersion>5.0.0f4</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_EGL;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_EGL;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="UnityVS.SuperMario64HD.CSharp.Plugins.csproj">
+      <Project>{EE6D56C0-661C-0984-3D2C-20912A32A5DE}</Project>
+      <Name>UnityVS.SuperMario64HD.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\BobOmbBuddy.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\BobOmbMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\EnemyMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\EnemySpawner.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\EnemyTriggerDamage.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\GoombaMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallGoldDestroy.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallPath.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallPathSpawner.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\RollingBallSink.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\WaterBomb.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\WaterBombProjectile.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Actors\WaterBombSpawner.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Doodads\FiringCannon.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\BobOmbExplosion.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\DynamicShadow.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\PlaneShadow.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Effects\ProximityCameraShaker.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\AdditiveTransform.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\MaterialColorChanger.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\MaterialSwapper.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\ShaderSwapper.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Helper\TransparencyFade.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Coin.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\CoinBlock.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\CoinDrop.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\CoinToss.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\DestructableGrate.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\DestructibleBox.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Elevator.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Gate.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\GateSwitch.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Springboard.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\Teleporter.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\TiltingBridge.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\TriggerableObject.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Interactive\WoodenPost.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioCamera.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioInput.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioMachineData.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioMachineStates.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioShadow.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioSmartCamera.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioSound.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioStatus.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\Mario\MarioVerySmartCamera.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\MarioCollisionType.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\ParticleMaster.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\SimpleStateMachine.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\AnalogDeadZoneVisualizer.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\BowserMask.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\ButtonKeyBinding.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\CoinTextHandler.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\GameMaster.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\HealthDisc.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\ImageToNumber.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\InputManager.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\KeybindingInputHandler.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\MatteFade.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\StarGraphic.cs" />
+    <Compile Include="Assets\Mario64HD\Scripts\UI\StarMenu.cs" />
+    <Compile Include="Assets\Our Assets\Scripts\custom_inputs.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCharacterController.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCollider.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperCollisionType.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperMath.cs" />
+    <Compile Include="Assets\SuperCharacterController\Core\SuperStateMachine.cs" />
+    <Compile Include="Assets\SuperCharacterController\DebugDraw.cs" />
+    <Compile Include="Assets\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\SuperCharacterController\RPGController\RPGMesh.cs" />
+    <Compile Include="Assets\SuperCharacterController\RPGController\RPGTriangleTree.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Mario64HD\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimAlphaReflect.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimBumpSpecular.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimIllumSpecular.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimReflect.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimSpecular.shader" />
+    <None Include="Assets\Mario64HD\Shaders\RimSpecularAlpha.shader" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\SuperCharacterController\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2012\UnityVS.CSharp.targets" />
+</Project>

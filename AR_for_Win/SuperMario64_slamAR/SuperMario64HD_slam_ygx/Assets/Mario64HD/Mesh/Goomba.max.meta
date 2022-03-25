@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: baded7432dea53045bca99ce987e7ad8
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: body
+  - first:
+      1: 100004
+    second: Box001
+  - first:
+      1: 100006
+    second: bn_chest
+  - first:
+      1: 100008
+    second: bn_head
+  - first:
+      1: 100010
+    second: bn_left_foot
+  - first:
+      1: 100012
+    second: bn_right_foot
+  - first:
+      1: 100014
+    second: Ctrl_Chest
+  - first:
+      1: 100016
+    second: Ctrl_foot_L
+  - first:
+      1: 100018
+    second: Ctrl_foot_R
+  - first:
+      1: 100020
+    second: Ctrl_Global
+  - first:
+      1: 100022
+    second: Ctrl_global
+  - first:
+      1: 100024
+    second: Ctrl_Neck
+  - first:
+      1: 100026
+    second: helper_chest
+  - first:
+      1: 100028
+    second: helper_foot_left
+  - first:
+      1: 100030
+    second: helper_foot_right
+  - first:
+      1: 100032
+    second: helper_head
+  - first:
+      1: 100034
+    second: Ctrl_COG
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: body
+  - first:
+      4: 400004
+    second: Box001
+  - first:
+      4: 400006
+    second: bn_chest
+  - first:
+      4: 400008
+    second: bn_head
+  - first:
+      4: 400010
+    second: bn_left_foot
+  - first:
+      4: 400012
+    second: bn_right_foot
+  - first:
+      4: 400014
+    second: Ctrl_Chest
+  - first:
+      4: 400016
+    second: Ctrl_foot_L
+  - first:
+      4: 400018
+    second: Ctrl_foot_R
+  - first:
+      4: 400020
+    second: Ctrl_Global
+  - first:
+      4: 400022
+    second: Ctrl_global
+  - first:
+      4: 400024
+    second: Ctrl_Neck
+  - first:
+      4: 400026
+    second: helper_chest
+  - first:
+      4: 400028
+    second: helper_foot_left
+  - first:
+      4: 400030
+    second: helper_foot_right
+  - first:
+      4: 400032
+    second: helper_head
+  - first:
+      4: 400034
+    second: Ctrl_COG
+  - first:
+      23: 2300000
+    second: //RootNode
+  - first:
+      23: 2300002
+    second: body
+  - first:
+      23: 2300004
+    second: Box001
+  - first:
+      23: 2300006
+    second: Ctrl_Global
+  - first:
+      23: 2300008
+    second: Ctrl_COG
+  - first:
+      33: 3300000
+    second: //RootNode
+  - first:
+      33: 3300002
+    second: body
+  - first:
+      33: 3300004
+    second: Box001
+  - first:
+      33: 3300006
+    second: Ctrl_Global
+  - first:
+      33: 3300008
+    second: Ctrl_COG
+  - first:
+      43: 4300000
+    second: body
+  - first:
+      43: 4300002
+    second: Box001
+  - first:
+      43: 4300004
+    second: Ctrl_Global
+  - first:
+      43: 4300006
+    second: Ctrl_COG
+  - first:
+      74: 7400000
+    second: walk
+  - first:
+      74: 7400002
+    second: run
+  - first:
+      74: 7400004
+    second: alert
+  - first:
+      74: 7400006
+    second: death
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: body
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 100
+      lastFrame: 140
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bn_chest
+        weight: 1
+      - path: bn_chest/bn_head
+        weight: 1
+      - path: bn_left_foot
+        weight: 1
+      - path: bn_right_foot
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Ctrl_global
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_Chest
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_Chest/Ctrl_Neck
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_Chest/Ctrl_Neck/helper_head
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_Chest/helper_chest
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_foot_L
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_foot_L/helper_foot_left
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_foot_R
+        weight: 1
+      - path: Ctrl_global/Ctrl_Global/Ctrl_foot_R/helper_foot_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 200
+      lastFrame: 213
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bn_chest
+        weight: 1
+      - path: bn_chest/bn_head
+        weight: 1
+      - path: bn_left_foot
+        weight: 1
+      - path: bn_right_foot
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Ctrl_Global
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/Ctrl_Neck
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/Ctrl_Neck/helper_head
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/helper_chest
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_L
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_L/helper_foot_left
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_R
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_R/helper_foot_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: alert
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 300
+      lastFrame: 330
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bn_chest
+        weight: 1
+      - path: bn_chest/bn_head
+        weight: 1
+      - path: bn_left_foot
+        weight: 1
+      - path: bn_right_foot
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Ctrl_Global
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/Ctrl_Neck
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/Ctrl_Neck/helper_head
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/helper_chest
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_L
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_L/helper_foot_left
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_R
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_R/helper_foot_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: death
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 381
+      lastFrame: 385
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bn_chest
+        weight: 1
+      - path: bn_chest/bn_head
+        weight: 1
+      - path: bn_left_foot
+        weight: 1
+      - path: bn_right_foot
+        weight: 1
+      - path: body
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Ctrl_Global
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/Ctrl_Neck
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/Ctrl_Neck/helper_head
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_Chest/helper_chest
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_L
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_L/helper_foot_left
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_R
+        weight: 1
+      - path: Ctrl_Global/Ctrl_COG/Ctrl_foot_R/helper_foot_right
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.01
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

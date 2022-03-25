@@ -1,0 +1,69 @@
+{
+    "featureList": [
+        {
+            "id":"1",
+            "buildIn":false,
+            "needPro":false,
+            "isOpend":true,
+            "menuItemOfSetting":"",
+            "featureName":"Anti-Cheat Expert",
+            "featureDescribe":"代码与数据加密工具",
+            "featureShortDoc":"由Anti-Cheat Expert团队与Unity中国技术支持团队联合开发。\n它针对Unity-Mono、Unity-IL2CPP运行时提供加密保护服务。同时提供文件级、方法级、指令级等多种等级的加密方式。\n\n使用方法：\n通过Project Settings > Player > Security Settings，将Enable Security Build启用，即可在编译时自动接入安全方案。\n\nAnti-Cheat Expert团队是全球领先游戏安全方案与服务提供者。\n致力于为端游、手游、主机等全平台游戏中的防破解、反作弊等各类游戏安全问题，提供全面和专业的解决方案。",
+            "remoteFeatureImage":"2018.4/ChinaFeature.Tencent.png",
+            "documentURL":"",
+            "supportedTargets":"Android,iOS"
+        },
+        {
+            "id":"2",
+            "buildIn":false,
+            "needPro":false,
+            "isOpend":true,
+            "menuItemOfSetting":"",
+            "featureName":"AssetBundle加密",
+            "featureDescribe":"基于ChunkBased的AssetBundle加密功能",
+            "featureShortDoc":"Unity中国团队推出了Unity AssetBundle加密方案。\n\n提供基于ChunkBased的AssetBundle加密功能，使AssetBundle更加安全。\n\n加密方案基于AES对称加密和自定义加密，提高破解难度同时将性能影响降到最低。\n\n（注：目前AssetBundle加密需要AssetBundle为ChunkBased压缩格式。后续会推出支持lzma和非压缩格式的加密。）",
+            "remoteFeatureImage":"2018.4/ChinaFeature.AssetBundle.png",
+            "documentURL":"https://connect.unity.com/p/unityzeng-qiang-ban-gong-neng-assetbundlejia-mi-shuo-ming-wen-dang",
+            "supportedTargets":"All Platforms"
+        },
+        {
+            "id":"3",
+            "buildIn":false,
+            "needPro":false,
+            "isOpend":true,
+            "menuItemOfSetting":"",
+            "featureName":"Crash Report",
+            "featureDescribe":"崩溃与异常收集工具",
+            "featureShortDoc":"崩溃与异常收集工具可以收集程序在崩溃时的异常数据，以此来改进和优化您的程序。请在Editor->Services->Cloud Diagnostics页面查看相关配置。\n收集的崩溃报告可以在https://developer.cloud.unity.cn/diagnostics/orgs/<org_name>/projects/<project_name>/crashes中查看。",
+            "remoteFeatureImage":"2018.4/ChinaFeature.CrashReporter.png",
+            "documentURL":"https://developer.cloud.unity.cn",
+            "supportedTargets":"Android,iOS,Linux,Mac,PC,WebGL,Windows 8 Universal,Windows 10 Universal"
+        },
+        {
+            "id":"4",
+            "buildIn":false,
+            "needPro":false,
+            "isOpend":true,
+            "menuItemOfSetting":"",
+            "featureName":"Shader Profiler",
+            "featureDescribe":"检查Shader在内存中的运行状态",
+            "featureShortDoc":"Shader Profiler用于检查Shader在内存中的运行状态，\n能够帮助开发者实时检查所用Shader是否正确。\n\nShader Profiler主要可以查看：\n1.Subshader信息\n2.Pass信息\n3.Variant信息\n4.Variant是否已经预热\n\n可以导入/导出相关测试信息。\n\n请打开顶部菜单Window->Package Manager窗口下载安装。\n通过Window->Analysis->Shader Profiler启动窗口。",
+            "remoteFeatureImage":"2019.3.4/ChinaFeature.ShaderProfiler.png",
+            "documentURL":"",
+            "supportedTargets":"All Platforms"
+        },
+        {
+            "id":"5",
+            "buildIn":false,
+            "needPro":false,
+            "isOpend":true,
+            "menuItemOfSetting":"",
+            "featureName":"Unity 云构建",
+            "featureDescribe":"云端构建项目，加速产品开发",
+            "featureShortDoc":"您可以在Editor中将项目从本地上传至云端，或提供项目仓库信息，通过微信小程序监控云端构建进度，构建完成后分发包体给其他用户。",
+            "remoteFeatureImage":"2018.4/ChinaFeature.CloudBuild.png",
+            "documentURL":"https://unity.cn/ccb",
+            "supportedTargets":"Android,Mac Standalone,PC Standalone,WebGL"
+        }
+    ]
+}

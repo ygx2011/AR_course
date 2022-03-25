@@ -1,0 +1,497 @@
+fileFormatVersion: 2
+guid: 4ab0725e929a17f4796622de364fa27d
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bobomref
+    100004: Box001
+    100006: Box002
+    100008: Cylinder002
+    100010: Cylinder003
+    100012: Cylinder004
+    100014: Cylinder005
+    100016: Cylinder006
+    100018: footref
+    100020: polygon10
+    100022: polygon11
+    100024: polygon12
+    100026: polygon13
+    100028: polygon14
+    100030: polygon15
+    100032: polygon8
+    100034: polygon9
+    100036: Sphere001
+    100038: Sphere002
+    100040: Sphere003
+    100042: Bn_Chest
+    100044: Bn_Heel_L
+    100046: Bn_Heel_R
+    100048: Bn_Leg_L
+    100050: Bn_Leg_R
+    100052: Bn_Toe_L
+    100054: Bn_Toe_R
+    100056: Bn_Wind
+    100058: Bn_Body
+    100060: Control_Body
+    100062: Control_COG
+    100064: Control_Foot_L
+    100066: Control_Foot_L001
+    100068: Control_Master
+    100070: Control_Toe_L
+    100072: Control_Toe_L001
+    100074: Control_Wind
+    100076: Helper_Body
+    100078: Helper_Heel_R
+    100080: Helper_Toe_R
+    100082: Helper_Wind
+    100084: IK_Leg_R
+    100086: AttachPoint_Fuse
+    100088: Helper_Heel_L
+    100090: Helper_Leg_L
+    100092: Helper_Leg_R
+    100094: Helper_Toe_L
+    100096: IK_Leg_L
+    100098: Control_Leg_L
+    100100: Control_Leg_R
+    100102: BobOmb_Collision
+    400000: //RootNode
+    400002: bobomref
+    400004: Box001
+    400006: Box002
+    400008: Cylinder002
+    400010: Cylinder003
+    400012: Cylinder004
+    400014: Cylinder005
+    400016: Cylinder006
+    400018: footref
+    400020: polygon10
+    400022: polygon11
+    400024: polygon12
+    400026: polygon13
+    400028: polygon14
+    400030: polygon15
+    400032: polygon8
+    400034: polygon9
+    400036: Sphere001
+    400038: Sphere002
+    400040: Sphere003
+    400042: Bn_Chest
+    400044: Bn_Heel_L
+    400046: Bn_Heel_R
+    400048: Bn_Leg_L
+    400050: Bn_Leg_R
+    400052: Bn_Toe_L
+    400054: Bn_Toe_R
+    400056: Bn_Wind
+    400058: Bn_Body
+    400060: Control_Body
+    400062: Control_COG
+    400064: Control_Foot_L
+    400066: Control_Foot_L001
+    400068: Control_Master
+    400070: Control_Toe_L
+    400072: Control_Toe_L001
+    400074: Control_Wind
+    400076: Helper_Body
+    400078: Helper_Heel_R
+    400080: Helper_Toe_R
+    400082: Helper_Wind
+    400084: IK_Leg_R
+    400086: AttachPoint_Fuse
+    400088: Helper_Heel_L
+    400090: Helper_Leg_L
+    400092: Helper_Leg_R
+    400094: Helper_Toe_L
+    400096: IK_Leg_L
+    400098: Control_Leg_L
+    400100: Control_Leg_R
+    400102: BobOmb_Collision
+    2300000: Box001
+    2300002: Box002
+    2300004: Cylinder002
+    2300006: Cylinder003
+    2300008: Cylinder004
+    2300010: Cylinder005
+    2300012: Cylinder006
+    2300014: footref
+    2300016: polygon10
+    2300018: polygon11
+    2300020: polygon12
+    2300022: polygon13
+    2300024: polygon14
+    2300026: polygon15
+    2300028: polygon8
+    2300030: polygon9
+    2300032: Sphere001
+    2300034: Sphere002
+    2300036: Sphere003
+    2300038: BobOmb_Collision
+    3300000: Box001
+    3300002: Box002
+    3300004: Cylinder002
+    3300006: Cylinder003
+    3300008: Cylinder004
+    3300010: Cylinder005
+    3300012: Cylinder006
+    3300014: footref
+    3300016: polygon10
+    3300018: polygon11
+    3300020: polygon12
+    3300022: polygon13
+    3300024: polygon14
+    3300026: polygon15
+    3300028: polygon8
+    3300030: polygon9
+    3300032: Sphere001
+    3300034: Sphere002
+    3300036: Sphere003
+    3300038: BobOmb_Collision
+    4300000: Cylinder002
+    4300002: Cylinder003
+    4300004: Sphere001
+    4300006: Sphere002
+    4300008: Sphere003
+    4300010: Cylinder004
+    4300012: Cylinder005
+    4300014: footref
+    4300016: polygon13
+    4300018: polygon10
+    4300020: polygon14
+    4300022: polygon15
+    4300024: polygon9
+    4300026: polygon8
+    4300028: polygon11
+    4300030: polygon12
+    4300032: Cylinder006
+    4300034: Box001
+    4300036: Box002
+    4300038: BobOmb_Collision
+    7400000: walk
+    7400002: idle
+    7400004: turn
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Sphere003
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 160
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Control_Master
+        weight: 1
+      - path: Control_Master/Control_COG
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/AttachPoint_Fuse
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind/Helper_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind/Helper_Wind/Bn_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Helper_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Helper_Body/Bn_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Control_Toe_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Control_Toe_L/Helper_Toe_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Helper_Heel_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Control_Toe_L001
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Control_Toe_L001/Helper_Toe_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Helper_Heel_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R/Bn_Heel_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R/Bn_Heel_R/Bn_Toe_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L/Bn_Heel_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L/Bn_Heel_L/Bn_Toe_L
+        weight: 1
+      - path: IK_Leg_L
+        weight: 1
+      - path: IK_Leg_R
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 300
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Control_Master
+        weight: 1
+      - path: Control_Master/Control_COG
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/AttachPoint_Fuse
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind/Helper_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind/Helper_Wind/Bn_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Helper_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Helper_Body/Bn_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Control_Toe_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Control_Toe_L/Helper_Toe_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Helper_Heel_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Control_Toe_L001
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Control_Toe_L001/Helper_Toe_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Helper_Heel_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R/Bn_Heel_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R/Bn_Heel_R/Bn_Toe_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L/Bn_Heel_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L/Bn_Heel_L/Bn_Toe_L
+        weight: 1
+      - path: IK_Leg_L
+        weight: 1
+      - path: IK_Leg_R
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: turn
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 340
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BobOmb_Collision
+        weight: 1
+      - path: Control_Master
+        weight: 1
+      - path: Control_Master/Control_COG
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/AttachPoint_Fuse
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind/Helper_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Control_Wind/Helper_Wind/Bn_Wind
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Helper_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Body/Helper_Body/Bn_Body
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Control_Toe_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Control_Toe_L/Helper_Toe_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L/Helper_Heel_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Control_Toe_L001
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Control_Toe_L001/Helper_Toe_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Foot_L001/Helper_Heel_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R/Bn_Heel_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_L/Helper_Leg_L/Bn_Leg_R/Bn_Heel_R/Bn_Toe_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L/Bn_Heel_L
+        weight: 1
+      - path: Control_Master/Control_COG/Control_Leg_R/Helper_Leg_R/Bn_Leg_L/Bn_Heel_L/Bn_Toe_L
+        weight: 1
+      - path: IK_Leg_L
+        weight: 1
+      - path: IK_Leg_R
+        weight: 1
+      - path: Sphere003
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
